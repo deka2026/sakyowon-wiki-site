@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-08-26 — 통합 계정(SSO)·햇소자·허브 정식 오픈 준비</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-26-%ED%86%B5%ED%95%A9%EA%B3%84%EC%A0%95-%ED%96%87%EC%86%8C%EC%9E%90-%EC%98%A4%ED%94%88%EC%A4%80%EB%B9%84</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-26-%ED%86%B5%ED%95%A9%EA%B3%84%EC%A0%95-%ED%96%87%EC%86%8C%EC%9E%90-%EC%98%A4%ED%94%88%EC%A4%80%EB%B9%84</guid>
+    <description><![CDATA[ 핸드오버 2026-08-26 — 통합 계정 · 햇소자 · 허브 정식 오픈 준비 세션 요약 이틀(8/25~26)에 걸친 큰 세션. ]]></description>
+    <pubDate>Wed, 26 Aug 2026 10:41:15 GMT</pubDate>
+  </item><item>
     <title>사이트 접수 알림을 텔레그램 봇으로 받기 — 처음부터 끝까지</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8/%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%91%EC%88%98-%EC%95%8C%EB%A6%BC%EC%9D%84-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8-%EB%B4%87%EC%9C%BC%EB%A1%9C-%EB%B0%9B%EA%B8%B0</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8/%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%91%EC%88%98-%EC%95%8C%EB%A6%BC%EC%9D%84-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8-%EB%B4%87%EC%9C%BC%EB%A1%9C-%EB%B0%9B%EA%B8%B0</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-20-%EA%B0%80%EB%B9%84%EC%95%84-2%EB%8B%A8%EA%B3%84-vitality</guid>
     <description><![CDATA[ 세션 요약 어제 구축한 가비아 자체서버의 뒷정리와 2단계를 진행했다. ]]></description>
     <pubDate>Thu, 20 Aug 2026 09:45:58 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-08-19 — 가비아 자체서버 구축 완료·마을학교 3교실</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-19-%EA%B0%80%EB%B9%84%EC%95%84-%EC%9E%90%EC%B2%B4%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-19-%EA%B0%80%EB%B9%84%EC%95%84-%EC%9E%90%EC%B2%B4%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%B6%95</guid>
-    <description><![CDATA[ 세션 요약 이사장님과 함께 가비아 클라우드 서버(sakyowon-server)를 신청부터 DNS 전환까지 하루 만에 구축 완료했다. ]]></description>
-    <pubDate>Wed, 19 Aug 2026 10:26:02 GMT</pubDate>
   </item>
     </channel>
   </rss>
