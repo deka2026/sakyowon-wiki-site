@@ -6,11 +6,23 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-03 — 햇빛조합 자동화 구축·햇소자 개편</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-03-%ED%96%87%EB%B9%9B%EC%A1%B0%ED%95%A9-%EC%9E%90%EB%8F%99%ED%99%94-%ED%96%87%EC%86%8C%EC%9E%90%EA%B0%9C%ED%8E%B8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-03-%ED%96%87%EB%B9%9B%EC%A1%B0%ED%95%A9-%EC%9E%90%EB%8F%99%ED%99%94-%ED%96%87%EC%86%8C%EC%9E%90%EA%B0%9C%ED%8E%B8</guid>
+    <description><![CDATA[ 세션 개요 1MW 햇빛소득 마을발전협동조합(수익배분 50공동사업/10지역화폐배당/20적립/20상환, 상근1+단순2)의 정기업무 체계 설계부터 자동화 3단계 구축, 햇소자 사이트 운영관리 메뉴 개편·라이브 반영까지 한 세션에 수행. ]]></description>
+    <pubDate>Thu, 03 Sep 2026 11:38:58 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-03 — 망남마을협동조합 메뉴·마을학교 개편</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-03-%EB%A7%9D%EB%82%A8%EC%BF%B1-%EB%A9%94%EB%89%B4%EA%B0%9C%ED%8E%B8</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-03-%EB%A7%9D%EB%82%A8%EC%BF%B1-%EB%A9%94%EB%89%B4%EA%B0%9C%ED%8E%B8</guid>
     <description><![CDATA[ 핸드오버 2026-09-03 — 망남마을협동조합 메뉴·마을학교 개편 세션 요약 이사장님이 공유한 구글 시트(망남마을학교 운영 콘티)와 구두 지시에 따라 망남마을협동조합 사이트(mangnam-coop 레포)를 크게 손봤다. ]]></description>
     <pubDate>Thu, 03 Sep 2026 11:35:57 GMT</pubDate>
+  </item><item>
+    <title>햇빛조합 운영자동화 — 1MW 표준모델</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%ED%99%98/%ED%96%87%EB%B9%9B%EC%A1%B0%ED%95%A9-%EC%9A%B4%EC%98%81%EC%9E%90%EB%8F%99%ED%99%94</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%ED%99%98/%ED%96%87%EB%B9%9B%EC%A1%B0%ED%95%A9-%EC%9A%B4%EC%98%81%EC%9E%90%EB%8F%99%ED%99%94</guid>
+    <description><![CDATA[ 햇빛조합 운영자동화 (1MW 표준모델) 햇빛소득마을 사업에 참여한 마을발전협동조합(1MW, 한전 판매)의 정기업무 체계와 자동화 시스템. ]]></description>
+    <pubDate>Wed, 02 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>핸드오버 2026-09-02 — 시민재생에너지 AI 연동 준비 (cre 배포 + 규격서 v0.1 회신)</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-02-%EC%8B%9C%EB%AF%BC%EC%9E%AC%EC%83%9D%EC%97%90%EB%84%88%EC%A7%80AI-%EC%97%B0%EB%8F%99%EC%A4%80%EB%B9%84</link>
@@ -40,7 +52,7 @@
     <link>https://deka2026.github.io/sakyowon-wiki/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC/%EA%B3%A0%ED%9D%A5-%EC%98%81%EB%86%8D%ED%98%95%ED%83%9C%EC%96%91%EA%B4%91-%EB%B6%84%EC%96%91%ED%98%95</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC/%EA%B3%A0%ED%9D%A5-%EC%98%81%EB%86%8D%ED%98%95%ED%83%9C%EC%96%91%EA%B4%91-%EB%B6%84%EC%96%91%ED%98%95</guid>
     <description><![CDATA[ 고흥 영농형태양광 햇빛소득마을 분양형 계획안 최종안: C:\Users\Admin\sakyowon-ai\전남광주통합특별시\고흥군_영농형태양광_햇빛소득마을_분양형_계획안_20260826.pdf (11면) 이전 초안: 같은 폴더 ..._20260825.hwpx 개요 고흥군 신재생에너지과 간담회 자료(2026-08-24, 한국에너지공단↔고흥군 — 「햇빛소득형 영농형 태양광 집적화」 시범 100MW + 「고흥군 1GW 영농형 태양광 조성 계획」 전문 48면)에 대한 비판 검토 + 대안 계획안. ]]></description>
-    <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+    <pubDate>Tue, 25 Aug 2026 15:00:00 GMT</pubDate>
   </item><item>
     <title>핸드오버 2026-08-23 — 위스테이 별내 협동조합 인수 시나리오 보고서</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-23-%EC%9C%84%EC%8A%A4%ED%85%8C%EC%9D%B4-%EC%9D%B8%EC%88%98%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4</link>
@@ -53,18 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-08-20-%EC%A0%84%EA%B8%B0%EB%B3%B8-%EC%A1%B0%EC%82%AC</guid>
     <description><![CDATA[ 세션 요약 이사장님 요청으로 제12차 전력수급기본계획을 웹 조사해 요약했다. ]]></description>
     <pubDate>Sun, 23 Aug 2026 05:19:18 GMT</pubDate>
-  </item><item>
-    <title>제12차 전력수급기본계획 동향 (2026-08 기준)</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%ED%99%98/%EC%A0%9C12%EC%B0%A8-%EC%A0%84%EB%A0%A5%EC%88%98%EA%B8%89%EA%B8%B0%EB%B3%B8%EA%B3%84%ED%9A%8D-%EB%8F%99%ED%96%A5</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%90%EB%84%88%EC%A7%80-%EC%A0%84%ED%99%98/%EC%A0%9C12%EC%B0%A8-%EC%A0%84%EB%A0%A5%EC%88%98%EA%B8%89%EA%B8%B0%EB%B3%B8%EA%B3%84%ED%9A%8D-%EB%8F%99%ED%96%A5</guid>
-    <description><![CDATA[ 제12차 전력수급기본계획 — 수립 동향 요약 2026-08-20 조사. 아직 확정되지 않은 수립 중인 계획이므로, 초안(9~10월 예정)·확정(12월 목표) 시점에 이 문서를 갱신할 것. ]]></description>
-    <pubDate>Sun, 23 Aug 2026 05:19:18 GMT</pubDate>
-  </item><item>
-    <title>망남 마을민박 사업 (농어촌민박 × 협동조합)</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC/%EB%A7%9D%EB%82%A8-%EB%A7%88%EC%9D%84%EB%AF%BC%EB%B0%95-%EC%82%AC%EC%97%85</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%A0%84%EB%82%A8%EA%B4%91%EC%A3%BC/%EB%A7%9D%EB%82%A8-%EB%A7%88%EC%9D%84%EB%AF%BC%EB%B0%95-%EC%82%AC%EC%97%85</guid>
-    <description><![CDATA[ 망남협동조합이 통합운영하는 마을민박 사업의 법률 검토와 사업계획 요약 (2026-08-23). 1. ]]></description>
-    <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
