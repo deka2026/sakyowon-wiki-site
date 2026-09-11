@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>AI에게 문서 교정을 맡길 때 — 검산과 빨간펜</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="sakyowon 위키"/><meta property="og:title" content="AI에게 문서 교정을 맡길 때 — 검산과 빨간펜"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="AI에게 문서 교정을 맡길 때 — 검산과 빨간펜"/><meta name="twitter:description" content="요약 100쪽짜리 정책 발제문의 오탈자·비문·논리 오류를 AI와 함께 잡아내고, 수정본을 수정한 부분이 전부 빨간 글자로 표시된 한글 파일로 받는 방법이다. 핵심은 두 가지다. 첫째, 맞춤법이 아니라 숫자 사슬을 검산하게 시킬 것."/><meta property="og:description" content="요약 100쪽짜리 정책 발제문의 오탈자·비문·논리 오류를 AI와 함께 잡아내고, 수정본을 수정한 부분이 전부 빨간 글자로 표시된 한글 파일로 받는 방법이다. 핵심은 두 가지다. 첫째, 맞춤법이 아니라 숫자 사슬을 검산하게 시킬 것."/><meta property="og:image:alt" content="요약 100쪽짜리 정책 발제문의 오탈자·비문·논리 오류를 AI와 함께 잡아내고, 수정본을 수정한 부분이 전부 빨간 글자로 표시된 한글 파일로 받는 방법이다. 핵심은 두 가지다. 첫째, 맞춤법이 아니라 숫자 사슬을 검산하게 시킬 것."/><meta property="twitter:domain" content="deka2026.github.io/sakyowon-wiki"/><meta property="og:url" content="https://deka2026.github.io/sakyowon-wiki/연대지능/AI에게-문서교정을-맡길-때-검산과-빨간펜"/><meta property="twitter:url" content="https://deka2026.github.io/sakyowon-wiki/연대지능/AI에게-문서교정을-맡길-때-검산과-빨간펜"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="요약 100쪽짜리 정책 발제문의 오탈자·비문·논리 오류를 AI와 함께 잡아내고, 수정본을 수정한 부분이 전부 빨간 글자로 표시된 한글 파일로 받는 방법이다. 핵심은 두 가지다. 첫째, 맞춤법이 아니라 숫자 사슬을 검산하게 시킬 것."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvc2FreW93b24td2lraS9zYWt5b3dvbi13aWtpL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://deka2026.github.io/sakyowon-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://deka2026.github.io/sakyowon-wiki/연대지능/AI에게-문서교정을-맡길-때-검산과-빨간펜-og-image.webp"/><meta property="og:image:url" content="https://deka2026.github.io/sakyowon-wiki/연대지능/AI에게-문서교정을-맡길-때-검산과-빨간펜-og-image.webp"/><meta name="twitter:image" content="https://deka2026.github.io/sakyowon-wiki/연대지능/AI에게-문서교정을-맡길-때-검산과-빨간펜-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="연대지능/AI에게-문서교정을-맡길-때-검산과-빨간펜"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">sakyowon 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-91"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-91" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../연대지능/">연대지능</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>AI에게 문서 교정을 맡길 때 — 검산과 빨간펜</a></div></nav><h1 class="article-title">AI에게 문서 교정을 맡길 때 — 검산과 빨간펜</h1><p show-comma="true" class="content-meta"><time datetime="2026-08-10T00:00:00.000Z">2026년 8월 10일</time><span>14 min read</span></p><ul class="tags"><li><a href="../tags/연대지능" class="internal tag-link">연대지능</a></li><li><a href="../tags/실천기술" class="internal tag-link">실천기술</a></li><li><a href="../tags/문서작업" class="internal tag-link">문서작업</a></li><li><a href="../tags/AI협업" class="internal tag-link">AI협업</a></li><li><a href="../tags/한글문서" class="internal tag-link">한글문서</a></li><li><a href="../tags/정책문서" class="internal tag-link">정책문서</a></li></ul></div></div><article class="popover-hint"><h2 id="요약">요약<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#요약" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>100쪽짜리 정책 발제문의 오탈자·비문·논리 오류를 AI와 함께 잡아내고, 수정본을 <strong>수정한 부분이 전부 빨간 글자로 표시된 한글 파일</strong>로 받는 방법이다. 핵심은 두 가지다. 첫째, 맞춤법이 아니라 <strong>숫자 사슬을 검산</strong>하게 시킬 것. 둘째, AI가 손댄 자리를 <strong>사람이 눈으로 확인할 수 있게</strong> 남길 것.</p>
+<p>2026년 8월 10일 「전남광주 시민공론장 발제문」(1~3장, 약 960문단)에 적용해 102곳을 수정했다.</p>
+<hr/>
+<h2 id="왜-이-기술인가">왜 이 기술인가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#왜-이-기술인가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>AI에게 “오탈자 좀 봐줘”라고 하면 대개 맞춤법과 띄어쓰기만 돌려준다. 그런데 정책문서에서 실제로 위험한 건 그게 아니다.</p>
+<p>이번에 나온 것들을 보면 이렇다.</p>
+<ul>
+<li>배당액이 어떤 문단에서는 “행정리당 <strong>연</strong> 1,500만<del>2,500만 원”, 다른 문단에서는 “행정리당 <strong>월</strong> 1,500만</del>2,500만 원”이었다. 월로 계산하면 마을 50곳 배당액이 연 매출의 3배가 된다.</li>
+<li>“신안 해상풍력 8.2GW = 대형 원전 6~8기 분량”이라고 썼는데, 설비용량으로 따지면 6기, 발전량으로 따지면 2기다.</li>
+<li>원전 측 반론을 소개하며 “부지가 수백 배 차이”라고 자기 문서에 적어 놓았다. 실제로는 40~60배다. 상대 논거를 스스로 부풀린 셈이다.</li>
+<li>3장 앞부분에서 “잉여 전력은 원자력이라 RE100에 안 잡힌다”고 논증해 놓고, 뒷부분에서는 그 잉여를 “여유분이 별도로 있다”며 근거로 썼다.</li>
+</ul>
+<p>이런 건 사람이 여러 번 읽어도 잘 안 보인다. 문서가 길어질수록, 여러 사람이 나눠 쓸수록 더 그렇다. 반면 AI는 문서 전체를 한 번에 들고 있으므로 <strong>떨어져 있는 두 숫자를 맞대 보는 일</strong>을 잘한다.</p>
+<p>문제는 그다음이다. AI가 100곳을 고쳐서 파일을 돌려주면, 그게 정말 100곳만 고친 건지 사람이 확인할 방법이 없다. 그래서 빨간펜이 필요하다.</p>
+<hr/>
+<h2 id="1단계--검산해줘라고-시킨다">1단계 — “검산해줘”라고 시킨다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1단계--검산해줘라고-시킨다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>요청을 이렇게 나눠서 준다.</p>
+<pre><code>오탈자와 비문, 논리 오류를 찾아줘. 특히
+- 같은 수치가 다른 곳에서 다르게 쓰인 곳
+- 표의 합계·비율이 본문과 안 맞는 곳
+- 목차와 본문 제목이 다른 곳
+- 앞에서 한 주장과 뒤에서 한 주장이 충돌하는 곳
+</code></pre>
+<p>이렇게 시키면 AI가 표의 모든 행을 실제로 계산해 본다. 이번 문서에서는 연도별 전력수요 표, 충당률 표, 감도분석 표를 전부 재계산했고 <strong>그 계산들은 다 맞았다</strong>. 맞은 것을 “맞다”고 확인해 주는 것도 중요하다. 어디를 방어할 수 있는지 알게 되기 때문이다.</p>
+<p>대신 틀린 곳은 이런 식으로 나온다.</p>
+<blockquote>
+<p>표에 적힌 값끼리 빼면 <code>16,300 − 13,270 = 3,030</code>인데 문서는 <code>3,009</code>라고 썼다. 반올림 전 정밀값(16,280 − 13,271)으로는 3,009가 맞다. 틀린 값은 아니지만 심의에서 검산하면 안 맞는다.</p>
+</blockquote>
+<p>이런 지적은 “각주 한 줄 추가”로 해결된다. 사람이 판단할 문제이므로, <strong>AI에게 고치라고 하지 말고 먼저 보고서로 받는다.</strong></p>
+<h2 id="2단계--보고서를-등급으로-나눠-받는다">2단계 — 보고서를 등급으로 나눠 받는다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2단계--보고서를-등급으로-나눠-받는다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>한꺼번에 60건을 받으면 무엇부터 봐야 할지 모른다. 이렇게 나누게 했다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>등급</th><th>내용</th><th>처리</th></tr></thead><tbody><tr><td>A</td><td>수치·논리 오류</td><td>반드시 수정</td></tr><tr><td>B</td><td>문서 내 불일치</td><td>기준값을 사람이 정한 뒤 수정</td></tr><tr><td>C</td><td>비문</td><td>대부분 그대로 수용</td></tr><tr><td>D</td><td>용어·표현</td><td>통일안을 사람이 선택</td></tr><tr><td>E</td><td>표기·조판</td><td>일괄 처리</td></tr><tr><td>F</td><td>출처 검증 필요</td><td>AI가 고칠 수 없음 — 사람이 확인</td></tr></tbody></table></div>
+<p>F가 중요하다. “독일 에너지협동조합 998개”가 맞는지는 AI가 판단할 수 없다. <strong>AI가 모르는 것을 모른다고 말하게 하는 칸</strong>을 만들어 두어야 그 칸에 담긴다.</p>
+<p>실제로 이번에는 “고령인구 비율 전국 최고”라는 문장이 F로 분류돼 왔다. 전남만 보면 맞지만 광주를 합친 ‘전남광주’ 기준으로는 1위가 아닐 수 있다는 것이다. 그래서 “전남 지역의 고령인구 비율은 전국 최고 수준”으로 범위를 좁혀 고쳤다.</p>
+<h2 id="3단계--무엇을-뺄지-사람이-정한다">3단계 — 무엇을 뺄지 사람이 정한다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3단계--무엇을-뺄지-사람이-정한다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>보고서를 받은 뒤 “B8과 B9는 빼고 적용해”라고 지시했다. 그 둘은 표의 행 구조를 건드려야 하는 항목이라 파일이 깨질 위험이 있었다. 이런 판단은 사람 몫이다.</p>
+<p>AI에게 전부 맡기지 않고 <strong>범위를 잘라 주는 것</strong>이 이 작업의 안전장치다.</p>
+<h2 id="4단계--수정-부분을-빨간색으로-남긴다">4단계 — 수정 부분을 빨간색으로 남긴다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4단계--수정-부분을-빨간색으로-남긴다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>한글 문서(.hwpx)는 압축을 풀면 XML이다. 글자 색은 <code>header.xml</code>의 글자모양(charPr) 정의에 들어 있다. 그래서 이렇게 한다.</p>
+<ol>
+<li>문서에 이미 있는 글자모양 41개를 <strong>통째로 복제</strong>해 색만 빨강으로 바꾼 사본을 만든다. 규칙은 <code>빨강(N) = N + 41</code>.</li>
+<li>문단을 수정할 때 그 자리를 세 조각으로 쪼갠다 — <code>앞부분(원래색) + 고친 부분(빨강) + 뒷부분(원래색)</code>.</li>
+</ol>
+<p>복제해서 쓰기 때문에 <strong>글꼴과 크기는 원래대로 유지되고 색만 바뀐다.</strong> 제목은 제목 크기 그대로 빨개진다.</p>
+<p>결과물을 열면 이렇게 보인다.</p>
+<blockquote>
+<p>행정리당 <span style="color:red;">연</span> 1,500만~2,500만 원의 발전 배당(20년), 마을월급 소득활동.</p>
+</blockquote>
+<p>한 글자만 고쳤으면 그 한 글자만 빨갛다. 검토자는 빨간 데만 따라가면 된다. 이번 문서에서는 빨간 조각이 116개 생겼다.</p>
+<h2 id="5단계--실패하면-아무것도-쓰지-않게-한다">5단계 — 실패하면 아무것도 쓰지 않게 한다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5단계--실패하면-아무것도-쓰지-않게-한다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>대량 수정에서 제일 무서운 건 “절반만 적용된 파일”이다. 그래서 적용 도구를 이렇게 만들었다.</p>
+<ul>
+<li>고칠 조각이 그 문단 안에 <strong>정확히 1번</strong> 나오는지 전부 먼저 검사한다</li>
+<li>한 건이라도 어긋나면 <strong>파일을 아예 쓰지 않고</strong> 실패 목록을 출력한다</li>
+</ul>
+<p>실제로 첫 실행에서 9건이 실패했다. 원인은 두 가지였다.</p>
+<p><strong>하나, 줄 번호를 문단 번호로 착각했다.</strong> 덤프 파일의 1번째 줄이 <code>[0]</code>번 문단이라 1씩 밀렸다. 검증기가 실제 문단 내용을 찍어 주니 바로 고쳐졌다.</p>
+<p><strong>둘, 눈에 안 보이는 공백이 있었다.</strong> 한글에서 작성한 문서에는 일반 공백처럼 보이지만 실제로는 다른 문자(비분리 공백, U+00A0)가 섞여 있다. 아무리 봐도 똑같은데 매치가 안 됐다. 문자 코드를 숫자로 찍어 보고서야 알았다.</p>
+<pre><code>원본  : ... 51452,32,55,51068,160,47588 ...   ← 160이 비분리 공백
+입력  : ... 51452,32,55,51068, 32,47588 ...   ← 32는 일반 공백
+</code></pre>
+<p>이런 건 사람이 육안으로는 영원히 못 찾는다. <strong>틀리면 멈추는 도구</strong>를 쓰는 이유가 이것이다.</p>
+<h2 id="6단계--사람이-검토하고-색을-지운다">6단계 — 사람이 검토하고 색을 지운다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6단계--사람이-검토하고-색을-지운다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>빨간 교정본을 한글에서 열어 하나씩 확인하고, 수용한 뒤 색을 검정으로 되돌려 최종본으로 저장한다.</p>
+<p>이 마지막 단계를 생략하면 안 된다. 빨간색은 <strong>AI가 무엇을 건드렸는지 사람이 확인하기 위한 장치</strong>이지, 그 자체가 완성본 표시가 아니다.</p>
+<hr/>
+<h2 id="덤으로--별도-분석을-본문-논리에-녹이기">덤으로 — 별도 분석을 본문 논리에 녹이기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#덤으로--별도-분석을-본문-논리에-녹이기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>이번에는 같은 날 만든 다른 문서(24시간 매칭 시뮬레이션 분석)를 발제문 본문에 반영하는 작업도 함께 했다. 그 분석 문서의 마지막 장 제목이 「결론 — 3장에 반영할 문구」였다.</p>
+<p><strong>분석을 하는 쪽에서 “이 결과를 본문 어디에 어떻게 넣어라”까지 써 두면</strong>, 반영 작업이 기계적으로 끝난다. 이번에는 그 지시가 세 가지였다.</p>
+<ol>
+<li>연간 수치와 시간대별 수치를 구분해서 표기할 것</li>
+<li>해상풍력을 “부족분 메우는 수단”이 아니라 “핵심 해법”으로 전면 배치할 것</li>
+<li>원가는 정면 비교하지 말 것</li>
+</ol>
+<p>이 세 줄이 본문 20여 곳의 수정으로 이어졌다. 분석 문서를 쓸 때 <strong>“그래서 원문을 어떻게 고치라는 것인가”를 마지막에 적어 두는 습관</strong>을 권한다.</p>
+<hr/>
+<h2 id="교훈">교훈<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#교훈" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>AI는 흩어진 숫자를 맞대 보는 일을 잘하고, 그게 맞는 숫자인지는 모른다.</strong> 검산은 맡기되 출처 확인은 사람이 한다.</p>
+<p><strong>고친 자리를 보이게 하라.</strong> 빨간펜이 없으면 검토가 불가능하고, 검토가 불가능하면 그 수정본은 쓸 수 없다. 자동화의 신뢰는 속도가 아니라 확인 가능성에서 나온다.</p>
+<p><strong>틀리면 멈추는 도구를 써라.</strong> 조용히 절반만 적용되는 것보다 요란하게 실패하는 편이 낫다. 이번에 실패한 9건은 전부 도구가 잡아낸 것이고, 사람은 한 건도 못 찾았을 것이다.</p>
+<p><strong>범위를 잘라 주는 것이 사람의 일이다.</strong> “이건 위험하니 빼”라고 말할 수 있으려면 무엇이 위험한지 알아야 한다. 그 판단까지 AI에게 넘기지 않는다.</p>
+<hr/>
+<h2 id="참고">참고<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#참고" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>스킬: <code>hwpx-powershell-edit</code> — 한글 문서를 파이썬·한글 프로그램 없이 PowerShell만으로 읽고 고치는 도구 모음. 이번 작업에서 인덱스 기반 편집기와 빨간색 표시 기능이 추가됨</li>
+<li>함께 읽기: 「AI와 함께 정책문서 교차검증하고 한글문서 자동수정하기」 — 서로 다른 두 문서의 충돌을 잡는 방법</li>
+<li>적용 사례: 「전남광주 시민공론장 발제문」(2026. 8. 11. 공론장 발제, 사회혁신교육원 사회적협동조합)</li>
+</ul>
+<p>문서 정리 = 데카(deka2026)</p>
+<hr/>
+<blockquote>
+<p>이 문서는 연대지능 공동위키에도 같은 내용으로 올라가 있다. 원본: <a href="https://github.com/haeory-cyber/solidarity-intelligence-wiki/blob/main/%EB%AC%B8%EC%84%9C/%EC%8B%A4%EC%B2%9C%EA%B8%B0%EC%88%A0/AI%EC%97%90%EA%B2%8C-%EB%AC%B8%EC%84%9C%EA%B5%90%EC%A0%95%EC%9D%84-%EB%A7%A1%EA%B8%B8-%EB%95%8C-%EA%B2%80%EC%82%B0%EA%B3%BC-%EB%B9%A8%EA%B0%84%ED%8E%9C.md" class="external">AI에게-문서교정을-맡길-때-검산과-빨간펜<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</blockquote></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-41" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#요약" data-for="요약">요약</a></li><li class="depth-0"><a href="#왜-이-기술인가" data-for="왜-이-기술인가">왜 이 기술인가</a></li><li class="depth-0"><a href="#1단계--검산해줘라고-시킨다" data-for="1단계--검산해줘라고-시킨다">1단계 — “검산해줘”라고 시킨다</a></li><li class="depth-0"><a href="#2단계--보고서를-등급으로-나눠-받는다" data-for="2단계--보고서를-등급으로-나눠-받는다">2단계 — 보고서를 등급으로 나눠 받는다</a></li><li class="depth-0"><a href="#3단계--무엇을-뺄지-사람이-정한다" data-for="3단계--무엇을-뺄지-사람이-정한다">3단계 — 무엇을 뺄지 사람이 정한다</a></li><li class="depth-0"><a href="#4단계--수정-부분을-빨간색으로-남긴다" data-for="4단계--수정-부분을-빨간색으로-남긴다">4단계 — 수정 부분을 빨간색으로 남긴다</a></li><li class="depth-0"><a href="#5단계--실패하면-아무것도-쓰지-않게-한다" data-for="5단계--실패하면-아무것도-쓰지-않게-한다">5단계 — 실패하면 아무것도 쓰지 않게 한다</a></li><li class="depth-0"><a href="#6단계--사람이-검토하고-색을-지운다" data-for="6단계--사람이-검토하고-색을-지운다">6단계 — 사람이 검토하고 색을 지운다</a></li><li class="depth-0"><a href="#덤으로--별도-분석을-본문-논리에-녹이기" data-for="덤으로--별도-분석을-본문-논리에-녹이기">덤으로 — 별도 분석을 본문 논리에 녹이기</a></li><li class="depth-0"><a href="#교훈" data-for="교훈">교훈</a></li><li class="depth-0"><a href="#참고" data-for="참고">참고</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-2" class="overflow"><li><a href="../연대지능아카데미/AI와-함께-자료를-강의안으로-다시-짓기" class="internal">AI와 함께 자료를 강의안으로 다시 짓기 — 이미지 장표에서 내용 꺼내고, 렌더로 검증하기</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://sakyowon.poomasi.org/">사교원</a></li><li><a href="https://sakyowon.co.kr/">허브</a></li><li><a href="https://sakyowon.co.kr/admin.html">🔐 통합 관리자</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

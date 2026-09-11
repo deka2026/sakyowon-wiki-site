@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>AI와 함께 관의 개발계획안을 비판 검토하고 주민소유 대안 만들기</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="sakyowon 위키"/><meta property="og:title" content="AI와 함께 관의 개발계획안을 비판 검토하고 주민소유 대안 만들기"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="AI와 함께 관의 개발계획안을 비판 검토하고 주민소유 대안 만들기"/><meta name="twitter:description" content="요약 지자체가 만든 48쪽짜리 태양광 개발 계획안을 AI와 함께 읽고, 그 안의 숫자만으로 문제점 여섯 가지를 입증한 뒤, 같은 사업을 마을이 소유하는 구조로 다시 설계해 11쪽 한글 문서로 만든 과정이다. 핵심은 세 가지다."/><meta property="og:description" content="요약 지자체가 만든 48쪽짜리 태양광 개발 계획안을 AI와 함께 읽고, 그 안의 숫자만으로 문제점 여섯 가지를 입증한 뒤, 같은 사업을 마을이 소유하는 구조로 다시 설계해 11쪽 한글 문서로 만든 과정이다. 핵심은 세 가지다."/><meta property="og:image:alt" content="요약 지자체가 만든 48쪽짜리 태양광 개발 계획안을 AI와 함께 읽고, 그 안의 숫자만으로 문제점 여섯 가지를 입증한 뒤, 같은 사업을 마을이 소유하는 구조로 다시 설계해 11쪽 한글 문서로 만든 과정이다. 핵심은 세 가지다."/><meta property="twitter:domain" content="deka2026.github.io/sakyowon-wiki"/><meta property="og:url" content="https://deka2026.github.io/sakyowon-wiki/에너지-전환/AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기"/><meta property="twitter:url" content="https://deka2026.github.io/sakyowon-wiki/에너지-전환/AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="요약 지자체가 만든 48쪽짜리 태양광 개발 계획안을 AI와 함께 읽고, 그 안의 숫자만으로 문제점 여섯 가지를 입증한 뒤, 같은 사업을 마을이 소유하는 구조로 다시 설계해 11쪽 한글 문서로 만든 과정이다. 핵심은 세 가지다."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvc2FreW93b24td2lraS9zYWt5b3dvbi13aWtpL3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://deka2026.github.io/sakyowon-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://deka2026.github.io/sakyowon-wiki/에너지-전환/AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기-og-image.webp"/><meta property="og:image:url" content="https://deka2026.github.io/sakyowon-wiki/에너지-전환/AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기-og-image.webp"/><meta name="twitter:image" content="https://deka2026.github.io/sakyowon-wiki/에너지-전환/AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="에너지-전환/AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">sakyowon 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-79"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-79" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../에너지-전환/">에너지 전환</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>AI와 함께 관의 개발계획안을 비판 검토하고 주민소유 대안 만들기</a></div></nav><h1 class="article-title">AI와 함께 관의 개발계획안을 비판 검토하고 주민소유 대안 만들기</h1><p show-comma="true" class="content-meta"><time datetime="2026-08-26T00:00:00.000Z">2026년 8월 26일</time><span>18 min read</span></p><ul class="tags"><li><a href="../tags/에너지-전환" class="internal tag-link">에너지-전환</a></li><li><a href="../tags/실천기술" class="internal tag-link">실천기술</a></li><li><a href="../tags/정책검토" class="internal tag-link">정책검토</a></li><li><a href="../tags/재생에너지" class="internal tag-link">재생에너지</a></li><li><a href="../tags/주민소유" class="internal tag-link">주민소유</a></li><li><a href="../tags/협동조합" class="internal tag-link">협동조합</a></li><li><a href="../tags/한글문서" class="internal tag-link">한글문서</a></li></ul></div></div><article class="popover-hint"><h2 id="요약">요약<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#요약" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>지자체가 만든 48쪽짜리 태양광 개발 계획안을 AI와 함께 읽고, 그 안의 숫자만으로 문제점 여섯 가지를 입증한 뒤, 같은 사업을 마을이 소유하는 구조로 다시 설계해 11쪽 한글 문서로 만든 과정이다. 핵심은 세 가지다. 상대를 반박할 가장 강한 근거는 상대 문서 안에 있다는 것, 지분율이 아니라 권리의 종류를 봐야 한다는 것, 그리고 대안을 그리기 전에 그 사업의 사업권을 누가 받을 수 있는지 법조문부터 확인해야 한다는 것이다.</p>
+<h2 id="왜-이-기술인가">왜 이 기술인가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#왜-이-기술인가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>지역에 큰 개발 사업이 들어올 때 주민이 받아드는 것은 대개 완성된 계획안이다. 설명회 자리에서 처음 보고, 몇 시간 안에 찬반을 정해야 한다. 계획안은 “주민 참여”, “이익 공유”, “상생”이라는 말로 가득하지만 그 말들이 실제로 무엇을 뜻하는지는 표와 각주에 숨어 있다.</p>
+<p>주민 지분 16퍼센트라고 쓰여 있으면 나쁘지 않아 보인다. 그런데 그 지분이 의결권 없는 우선주이고, 청산할 때 남는 재산에 대한 권리를 포기하는 조건이 붙어 있다면 이야기가 완전히 달라진다. 20년 뒤 발전소가 통째로 남의 것이 된다는 뜻이기 때문이다. 이런 것은 문서를 처음부터 끝까지 읽고 여러 표를 겹쳐 봐야 보인다. 설명회 두 시간으로는 불가능하다.</p>
+<p>AI는 이 일을 잘한다. 48쪽을 빠짐없이 읽고, 5쪽 출자표와 10쪽 회수표와 27쪽 현금흐름표를 한자리에 놓고 대조할 수 있다. 다만 AI에게 “비판해줘”라고만 하면 인상비평이 나온다. 어떤 격자로 읽을지를 사람이 정해줘야 한다.</p>
+<h2 id="단계별-따라하기">단계별 따라하기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#단계별-따라하기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1단계-원문을-통째로-읽히되-채록할-것을-지정한다">1단계. 원문을 통째로 읽히되, 채록할 것을 지정한다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1단계-원문을-통째로-읽히되-채록할-것을-지정한다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>스캔 PDF를 통으로 주면서 “요약해줘”라고 하면 서론만 반복하는 요약이 나온다. 무엇을 뽑아낼지 미리 말한다.</p>
+<blockquote>
+<p>이 문서를 다 읽고 다음을 표로 정리해줘. ①출자 구조표(누가 몇 퍼센트, 보통주인지 우선주인지) ②청산 시 잔여재산 배분 순위 ③사업비 내역과 자금 조달 비율 ④연차별 현금흐름 ⑤근거로 든 법령과 조문 번호 ⑥추진 일정에서 주민 절차가 몇 번째인지</p>
+</blockquote>
+<p>문장이 아니라 숫자와 조항을 뽑게 하는 것이 요령이다. 계획안의 수사(修辭)는 대부분 근거가 되지 못하지만 표와 조문은 움직일 수 없다.</p>
+<h3 id="2단계-권리-귀속-격자로-다시-읽힌다">2단계. 권리 귀속 격자로 다시 읽힌다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2단계-권리-귀속-격자로-다시-읽힌다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>계획안의 언어를 걷어내고 여섯 칸에 다시 배치하게 한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>칸</th><th>물을 것</th></tr></thead><tbody><tr><td>소유</td><td>자산의 소유권이 최종적으로 누구에게 있는가</td></tr><tr><td>결정</td><td>이사회 구성, 의결권, 중대사항 거부권이 있는가</td></tr><tr><td>토지</td><td>지대(임대료)가 누구에게 귀속되고 누가 감면받는가</td></tr><tr><td>노동</td><td>실제로 일하고 권리를 내놓는 사람에게 무엇이 오는가</td></tr><tr><td>청산</td><td>사업이 끝날 때 남는 재산이 누구에게 가는가</td></tr><tr><td>리스크</td><td>수익이 모자랄 때 누구 몫부터 줄어드는가</td></tr></tbody></table></div>
+<p>이 격자를 통과시키면 “주민 참여형”이라는 표현이 붙은 사업의 실제 모습이 드러난다. 필자가 검토한 계획안에서는 주민 지분 16퍼센트가 우선주였고, 관과 정부 기금이 68퍼센트를 쥐고 있었으며, 주민조합은 잔여재산 배분권을 포기하는 것으로 표에 적혀 있었다. 지분율만 봤다면 놓쳤을 것이다.</p>
+<h3 id="3단계-문서가-스스로-인정한-문장을-찾는다">3단계. 문서가 스스로 인정한 문장을 찾는다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3단계-문서가-스스로-인정한-문장을-찾는다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>이것이 가장 강력하다. 외부 자료로 반박하면 논쟁이 되지만, 상대 문서가 스스로 쓴 문장을 인용하면 반박하기 어렵다. AI에게 이렇게 시킨다.</p>
+<blockquote>
+<p>이 문서에서 스스로 한계를 인정한 문장을 전부 찾아줘. “승인받은 후 추진”, “제도화되어 있지 않음”, “회피방법”, “논의중”, “검토중” 같은 표현과, 표에서 스스로 계산해 놓은 마이너스 구간을 찾아줘.</p>
+</blockquote>
+<p>필자의 경우 결정적인 것이 나왔다. 계획안 스스로 “17년 균등상환 시 8년차부터 누적 현금 결손 1,637억 원이 발생해 금융 구조상 실행이 불가능한 상태”라고 쓰고, 5년차에 금리가 5퍼센트에서 4퍼센트로 내려간다는 가정을 추가해야만 흑자로 바뀐다고 적어 놓았다. 금리라는 외부 변수 하나에 3조 원 사업 전체가 걸려 있다는 자백을 문서가 직접 하고 있었던 것이다.</p>
+<p>농지 규제에 대한 대응을 “회피방법”이라는 소제목으로 적어 놓은 것도 이 방식으로 찾았다.</p>
+<h3 id="4단계-모든-문제점에-면수를-붙인다">4단계. 모든 문제점에 면수를 붙인다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4단계-모든-문제점에-면수를-붙인다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>문제점마다 원문의 몇 쪽 어느 표인지를 병기하게 한다.</p>
+<pre><code>※ 근거: 시범사업 문서 5면(출자 구조표 — 주민조합연합회 120억·16.00%·현물출자 우선주),
+        10면(주민조합연합회 &quot;잔여재산 배분권 포기(후순위)&quot;)
+</code></pre>
+<p>이렇게 해두면 문서가 협의 자리에서 무기가 된다. 담당 부서와 마주 앉았을 때 “몇 쪽 표를 보시라”고 말할 수 있는 것과 “제가 보기엔”이라고 말하는 것은 완전히 다르다.</p>
+<h3 id="5단계-대안을-그리기-전에-사업권-조항부터-확인한다">5단계. 대안을 그리기 전에 사업권 조항부터 확인한다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5단계-대안을-그리기-전에-사업권-조항부터-확인한다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>여기서 필자와 AI가 함께 실수했고, 그 실수가 이 글에서 가장 중요한 대목이다.</p>
+<p>AI는 대안으로 특수목적법인(SPC)을 세우고 주민조합이 그 회사의 지분 30퍼센트를 갖되 나머지 지분에 콜옵션을 거는 구조를 제안했다. 그럴듯했다. 그런데 “발전법인이 왜 필요하지?”라고 되물었더니, 확인 끝에 이런 답이 돌아왔다.</p>
+<p>새로 시행되는 영농형태양광법은 사업권을 세 종류에만 준다. 소재지에 사는 농업인, 소재지 주민 10인 이상이 만든 주민참여협동조합, 그리고 농업법인이다. 주식회사는 목록에 없다. 즉 AI가 제안한 SPC는 애초에 사업 허가를 받을 수 없는 법인이었다. 관행적인 개발사업 설계를 반사적으로 가져왔다가 법과 충돌한 것이다.</p>
+<p>AI는 금융과 계약이 편하다는 이유로 SPC를 넣었다고 인정했다. 이것이 AI의 전형적인 실패 방식이다. 학습한 관행이 강해서, 그 관행이 이 사건에 적용되는지를 따로 확인하지 않는다.</p>
+<p>그러므로 대안 설계는 반드시 이 순서로 한다.</p>
+<ol>
+<li>이 사업의 사업권·인허가를 받을 수 있는 법인 형태가 법으로 한정되어 있는가</li>
+<li>그 형태가 외부 출자를 받을 수 있는가 (협동조합은 1인 1표에 배당 제한이 있다)</li>
+<li>금융과 계약이 그 형태로 가능한가. 안 되면 기능을 나눈다</li>
+</ol>
+<h3 id="6단계-소유의-단위를-바꾼다">6단계. 소유의 단위를 바꾼다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6단계-소유의-단위를-바꾼다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>문제의 뿌리는 지분율이 아니라 소유의 단위였다. 발전설비를 하나의 회사가 통째로 갖고 주민이 그 회사의 소액 출자자로 얹히는 한, 지분을 16퍼센트에서 30퍼센트로 올려도 주민은 수익자에 머문다.</p>
+<p>해법은 수상태양광에서 이미 쓰이고 있었다. 아산 등지에서 시행된 행정리 분양형이다. 발전설비를 마을 단위로 구획해 각 마을 협동조합에 분양하면, 마을조합이 곧 발전사업자가 된다. 소유와 결정과 사업권이 한 몸이 되고, 별도의 주식회사가 필요 없어지며, 법이 정한 사업 주체 요건에도 그대로 들어맞는다.</p>
+<p>이 사례를 AI가 먼저 떠올리지는 못했다. 현장에서 이미 쓰이는 모델을 아는 사람이 알려줘야 한다. AI는 그것을 법조문·재무구조와 맞춰 정합적인 설계로 펼치는 일을 한다. 역할 분담이 이렇다.</p>
+<h3 id="7단계-대안은-상대보다-엄격하게">7단계. 대안은 상대보다 엄격하게<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#7단계-대안은-상대보다-엄격하게" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>상대를 “미확정 제도에 기대고 있다”고 비판했다면 자기 대안은 더 보수적이어야 한다. 확정된 계약 수익만으로 사업이 성립하도록 규모를 역산하고, 아직 없는 제도에서 나올 수익은 사업성 근거가 아니라 “실현되면 마을 몫이 되는 추가 수익”으로만 다룬다.</p>
+<p>미확정 사항은 본문에서 단정하지 말고 문서 끝에 **“시행령 제정 전에 확인할 실무 과제”**라는 절로 따로 뺀다. 현장 사정으로 이미 답을 아는 항목이 있으면 그때 본문으로 올린다. 필자도 AI가 걱정한 “소재지 거주 요건” 문제를 실제로는 걱정할 필요가 없다는 것을 알고 있어서 바로잡아 주었다.</p>
+<h3 id="8단계-표-중심-한글-문서로-산출한다">8단계. 표 중심 한글 문서로 산출한다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#8단계-표-중심-한글-문서로-산출한다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>행정에 내는 문서는 표가 있어야 읽힌다. 문단으로 늘어놓으면 담당자가 끝까지 읽지 않는다. 나열·비교·구성에 해당하는 내용은 전부 표로 만들게 한다. 한글 문서 생성 방법은 <a href="../자산기반-사회연대경제/AI와-함께-두-사업계획서를-하나의-한글-요약본으로-합치기" class="internal alias" data-slug="자산기반-사회연대경제/AI와-함께-두-사업계획서를-하나의-한글-요약본으로-합치기">AI와 함께 두 사업계획서를 하나의 한글 요약본으로 합치기</a>에 정리해 두었다.</p>
+<p>최종 문서 구성은 이렇게 잡았다.</p>
+<ul>
+<li>요약 (문제점 요약표 하나 + 대안 골격 두 문단)</li>
+<li>제1부 문제점 여섯 가지 — 각각 본문과 근거 면수</li>
+<li>제2부 대안 — 5대 원칙표, 설계 아홉 개(각각 표 하나와 설명), 한눈 비교표</li>
+<li>시행령 제정 전 확인할 실무 과제</li>
+<li>맺음말</li>
+</ul>
+<h2 id="교훈">교훈<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#교훈" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>상대 문서가 가장 좋은 근거다.</strong> 스스로 “실행이 불가능한 상태”라고 쓴 문장을 찾아내는 것이, 바깥에서 가져온 통계 열 개보다 강하다.</p>
+<p><strong>지분율이 아니라 권리의 종류를 보라.</strong> 의결권 없는 우선주 30퍼센트보다 의결권 있는 보통주 20퍼센트가 낫고, 그보다 자산을 직접 소유하는 편이 낫다.</p>
+<p><strong>AI의 관행 학습은 강하고, 그래서 위험하다.</strong> SPC를 세우는 것은 개발사업의 표준 문법이라 AI가 반사적으로 가져왔다. 그 문법이 이 법에서는 금지되어 있다는 것을 사람이 물어야 발견된다. “이게 왜 필요하지?”라는 한마디가 설계 전체를 바로잡았다.</p>
+<p><strong>현장 지식은 사람이 넣는다.</strong> 행정리 분양형이라는 모델도, 소재지 요건이 문제되지 않는다는 판단도 AI가 아니라 현장을 아는 사람에게서 나왔다. AI는 그것을 법과 재무에 맞춰 펼치고 검증하는 일을 한다.</p>
+<p><strong>구조를 세 번 갈아엎는 것이 정상이다.</strong> 첫 안은 임차료 감면을 포기하는 설계였고, 두 번째 안은 불필요한 발전법인을 넣었다. 세 번째에야 쓸 만해졌다. 초안을 아까워하지 말고, 되물음이 오면 방어하지 말고 근거를 다시 확인하는 편이 빠르다.</p>
+<p><strong>최종본은 사람 손을 거친다.</strong> 필자가 단가와 자본 비율을 현장 수치로 고치고, 감면 조건에 경영공시 의무와 업무 자동화 항목을 새로 넣었다. AI가 만든 문서를 그대로 최종본으로 삼지 않는다.</p>
+<h2 id="참고">참고<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#참고" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>검토 대상: 지자체 재생에너지 개발 간담회 자료 48면 (2026년 8월)</li>
+<li>관련 법령: 영농형태양광법 제5조(사업 주체), 제7조(허가 기간), 제13조(수익의 환원)</li>
+<li>참고 모델: 수상태양광 행정리 분양형(아산 등)</li>
+<li>사용 도구: Claude Code, 한글 문서 자동 생성 스크립트</li>
+<li>관련 문서: <a href="../자산기반-사회연대경제/AI와-함께-두-사업계획서를-하나의-한글-요약본으로-합치기" class="internal alias" data-slug="자산기반-사회연대경제/AI와-함께-두-사업계획서를-하나의-한글-요약본으로-합치기">AI와 함께 두 사업계획서를 하나의 한글 요약본으로 합치기</a>, <a href="../자산기반-사회연대경제/AI와-함께-정책-참고사례집-만들기-원문-수치와-보완-수치-구분하기" class="internal alias" data-slug="자산기반-사회연대경제/AI와-함께-정책-참고사례집-만들기-원문-수치와-보완-수치-구분하기">AI와 함께 정책 참고사례집 만들기 — 원문 수치와 보완 수치 구분하기</a></li>
+</ul>
+<p>문서 정리 = 데카(deka2026)</p>
+<hr/>
+<blockquote>
+<p>이 문서는 연대지능 공동위키에도 같은 내용으로 올라가 있다. 원본: <a href="https://github.com/haeory-cyber/solidarity-intelligence-wiki/blob/main/%EB%AC%B8%EC%84%9C/%EC%8B%A4%EC%B2%9C%EA%B8%B0%EC%88%A0/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EA%B4%80%EC%9D%98-%EA%B0%9C%EB%B0%9C%EA%B3%84%ED%9A%8D%EC%95%88%EC%9D%84-%EB%B9%84%ED%8C%90%EA%B2%80%ED%86%A0%ED%95%98%EA%B3%A0-%EC%A3%BC%EB%AF%BC%EC%86%8C%EC%9C%A0-%EB%8C%80%EC%95%88-%EB%A7%8C%EB%93%A4%EA%B8%B0.md" class="external">AI와-함께-관의-개발계획안을-비판검토하고-주민소유-대안-만들기<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a></p>
+</blockquote></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-36" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#요약" data-for="요약">요약</a></li><li class="depth-0"><a href="#왜-이-기술인가" data-for="왜-이-기술인가">왜 이 기술인가</a></li><li class="depth-0"><a href="#단계별-따라하기" data-for="단계별-따라하기">단계별 따라하기</a></li><li class="depth-1"><a href="#1단계-원문을-통째로-읽히되-채록할-것을-지정한다" data-for="1단계-원문을-통째로-읽히되-채록할-것을-지정한다">1단계. 원문을 통째로 읽히되, 채록할 것을 지정한다</a></li><li class="depth-1"><a href="#2단계-권리-귀속-격자로-다시-읽힌다" data-for="2단계-권리-귀속-격자로-다시-읽힌다">2단계. 권리 귀속 격자로 다시 읽힌다</a></li><li class="depth-1"><a href="#3단계-문서가-스스로-인정한-문장을-찾는다" data-for="3단계-문서가-스스로-인정한-문장을-찾는다">3단계. 문서가 스스로 인정한 문장을 찾는다</a></li><li class="depth-1"><a href="#4단계-모든-문제점에-면수를-붙인다" data-for="4단계-모든-문제점에-면수를-붙인다">4단계. 모든 문제점에 면수를 붙인다</a></li><li class="depth-1"><a href="#5단계-대안을-그리기-전에-사업권-조항부터-확인한다" data-for="5단계-대안을-그리기-전에-사업권-조항부터-확인한다">5단계. 대안을 그리기 전에 사업권 조항부터 확인한다</a></li><li class="depth-1"><a href="#6단계-소유의-단위를-바꾼다" data-for="6단계-소유의-단위를-바꾼다">6단계. 소유의 단위를 바꾼다</a></li><li class="depth-1"><a href="#7단계-대안은-상대보다-엄격하게" data-for="7단계-대안은-상대보다-엄격하게">7단계. 대안은 상대보다 엄격하게</a></li><li class="depth-1"><a href="#8단계-표-중심-한글-문서로-산출한다" data-for="8단계-표-중심-한글-문서로-산출한다">8단계. 표 중심 한글 문서로 산출한다</a></li><li class="depth-0"><a href="#교훈" data-for="교훈">교훈</a></li><li class="depth-0"><a href="#참고" data-for="참고">참고</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://sakyowon.poomasi.org/">사교원</a></li><li><a href="https://sakyowon.co.kr/">허브</a></li><li><a href="https://sakyowon.co.kr/admin.html">🔐 통합 관리자</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
