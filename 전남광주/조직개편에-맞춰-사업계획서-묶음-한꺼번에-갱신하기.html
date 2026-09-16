@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>조직개편에 맞춰 사업계획서 묶음 한꺼번에 갱신하기</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="sakyowon 위키"/><meta property="og:title" content="조직개편에 맞춰 사업계획서 묶음 한꺼번에 갱신하기"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="조직개편에 맞춰 사업계획서 묶음 한꺼번에 갱신하기"/><meta name="twitter:description" content="요약 행정 조직개편안이 하나 나오면, 그 조직을 전제로 써둔 우리 문서 대여섯 건이 한꺼번에 낡는다. “담당 팀: ○○○팀”이라고 적어둔 표가 전부 존재하지 않는 팀을 가리키게 된다. 이 글은 그걸 손으로 고치지 않고 처리하는 방법이다."/><meta property="og:description" content="요약 행정 조직개편안이 하나 나오면, 그 조직을 전제로 써둔 우리 문서 대여섯 건이 한꺼번에 낡는다. “담당 팀: ○○○팀”이라고 적어둔 표가 전부 존재하지 않는 팀을 가리키게 된다. 이 글은 그걸 손으로 고치지 않고 처리하는 방법이다."/><meta property="og:image:alt" content="요약 행정 조직개편안이 하나 나오면, 그 조직을 전제로 써둔 우리 문서 대여섯 건이 한꺼번에 낡는다. “담당 팀: ○○○팀”이라고 적어둔 표가 전부 존재하지 않는 팀을 가리키게 된다. 이 글은 그걸 손으로 고치지 않고 처리하는 방법이다."/><meta property="twitter:domain" content="deka2026.github.io/sakyowon-wiki"/><meta property="og:url" content="https://deka2026.github.io/sakyowon-wiki/전남광주/조직개편에-맞춰-사업계획서-묶음-한꺼번에-갱신하기"/><meta property="twitter:url" content="https://deka2026.github.io/sakyowon-wiki/전남광주/조직개편에-맞춰-사업계획서-묶음-한꺼번에-갱신하기"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="요약 행정 조직개편안이 하나 나오면, 그 조직을 전제로 써둔 우리 문서 대여섯 건이 한꺼번에 낡는다. “담당 팀: ○○○팀”이라고 적어둔 표가 전부 존재하지 않는 팀을 가리키게 된다. 이 글은 그걸 손으로 고치지 않고 처리하는 방법이다."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiQzpcXFVzZXJzXFxVc2VyXFxzYWt5b3dvbi13aWtpXFxxdWFydHpcXGNvbXBvbmVudHNcXHN0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFOztBQUdGO0VBQ0U7O0FBSUY7RUFDRTtFQUNBO0VBQ0EiLCJzb3VyY2VzQ29udGVudCI6WyIuZXhwYW5kLWJ1dHRvbiB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgZGlzcGxheTogZmxleDtcbiAgZmxvYXQ6IHJpZ2h0O1xuICBwYWRkaW5nOiAwLjRyZW07XG4gIG1hcmdpbjogMC4zcmVtO1xuICByaWdodDogMDsgLy8gTk9URTogcmlnaHQgd2lsbCBiZSBzZXQgaW4gbWVybWFpZC5pbmxpbmUudHNcbiAgY29sb3I6IHZhcigtLWdyYXkpO1xuICBib3JkZXItY29sb3I6IHZhcigtLWRhcmspO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gIGJvcmRlcjogMXB4IHNvbGlkO1xuICBib3JkZXItcmFkaXVzOiA1cHg7XG4gIG9wYWNpdHk6IDA7XG4gIHRyYW5zaXRpb246IDAuMnM7XG5cbiAgJiA+IHN2ZyB7XG4gICAgZmlsbDogdmFyKC0tbGlnaHQpO1xuICAgIGZpbHRlcjogY29udHJhc3QoMC4zKTtcbiAgfVxuXG4gICY6aG92ZXIge1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBib3JkZXItY29sb3I6IHZhcigtLXNlY29uZGFyeSk7XG4gIH1cblxuICAmOmZvY3VzIHtcbiAgICBvdXRsaW5lOiAwO1xuICB9XG59XG5cbnByZSB7XG4gICY6aG92ZXIgPiAuZXhwYW5kLWJ1dHRvbiB7XG4gICAgb3BhY2l0eTogMTtcbiAgICB0cmFuc2l0aW9uOiAwLjJzO1xuICB9XG59XG5cbiNtZXJtYWlkLWNvbnRhaW5lciB7XG4gIHBvc2l0aW9uOiBmaXhlZDtcbiAgY29udGFpbjogbGF5b3V0O1xuICB6LWluZGV4OiA5OTk7XG4gIGxlZnQ6IDA7XG4gIHRvcDogMDtcbiAgd2lkdGg6IDEwMHZ3O1xuICBoZWlnaHQ6IDEwMHZoO1xuICBvdmVyZmxvdzogaGlkZGVuO1xuICBkaXNwbGF5OiBub25lO1xuICBiYWNrZHJvcC1maWx0ZXI6IGJsdXIoNHB4KTtcbiAgYmFja2dyb3VuZDogcmdiYSgwLCAwLCAwLCAwLjUpO1xuXG4gICYuYWN0aXZlIHtcbiAgICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG4gIH1cblxuICAmID4gI21lcm1haWQtc3BhY2Uge1xuICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICBwb3NpdGlvbjogZml4ZWQ7XG4gICAgdG9wOiA1MCU7XG4gICAgbGVmdDogNTAlO1xuICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlKC01MCUsIC01MCUpO1xuICAgIGhlaWdodDogODB2aDtcbiAgICB3aWR0aDogODB2dztcbiAgICBvdmVyZmxvdzogaGlkZGVuO1xuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRlbnQge1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://deka2026.github.io/sakyowon-wiki/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://deka2026.github.io/sakyowon-wiki/전남광주/조직개편에-맞춰-사업계획서-묶음-한꺼번에-갱신하기-og-image.webp"/><meta property="og:image:url" content="https://deka2026.github.io/sakyowon-wiki/전남광주/조직개편에-맞춰-사업계획서-묶음-한꺼번에-갱신하기-og-image.webp"/><meta name="twitter:image" content="https://deka2026.github.io/sakyowon-wiki/전남광주/조직개편에-맞춰-사업계획서-묶음-한꺼번에-갱신하기-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="전남광주/조직개편에-맞춰-사업계획서-묶음-한꺼번에-갱신하기"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">sakyowon 위키</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-190"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-190" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../전남광주/">전남광주</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>조직개편에 맞춰 사업계획서 묶음 한꺼번에 갱신하기</a></div></nav><h1 class="article-title">조직개편에 맞춰 사업계획서 묶음 한꺼번에 갱신하기</h1><p show-comma="true" class="content-meta"><time datetime="2026-09-15T15:00:00.000Z">2026년 9월 16일</time><span>15 min read</span></p><ul class="tags"><li><a href="../tags/전남광주" class="internal tag-link">전남광주</a></li><li><a href="../tags/실천기술" class="internal tag-link">실천기술</a></li><li><a href="../tags/한글문서" class="internal tag-link">한글문서</a></li><li><a href="../tags/조직설계" class="internal tag-link">조직설계</a></li></ul></div></div><article class="popover-hint"><h2 id="요약">요약<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#요약" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>행정 조직개편안이 하나 나오면, 그 조직을 전제로 써둔 우리 문서 대여섯 건이 한꺼번에 낡는다.
+“담당 팀: ○○○팀”이라고 적어둔 표가 전부 존재하지 않는 팀을 가리키게 된다.</p>
+<p>이 글은 그걸 손으로 고치지 않고 처리하는 방법이다. 세 단계다 —
+<strong>① 새 조직도를 정확히 읽고 ② 구·신 대응표를 사람이 판단해서 만들고 ③ 그 표로 문서 묶음을 일괄 치환</strong>한다.
+실제로 전남광주통합특별시 통합조직도가 바뀌었을 때(5과 20팀 → 4과 12팀 + 담당관 3팀)
+발제문 1건을 새로 짓고 참고문서 4종을 점검해 2종 22건을 30분 안에 갱신했다.</p>
+<p>핵심은 <strong>②가 기계 일이 아니라는 것</strong>이다. ①과 ③은 자동화되지만, “이 팀의 업무를 누가 받는가”는
+사람이 판단한다. 자동화는 그 판단을 문서 전체에 빠짐없이 퍼뜨리는 데만 쓴다.</p>
+<h2 id="왜-이-기술인가">왜 이 기술인가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#왜-이-기술인가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>조직개편 때 우리 쪽이 흔히 겪는 일이 셋 있다.</p>
+<p><strong>첫째, 문서가 조용히 낡는다.</strong> 팀 이름 하나가 바뀌었을 뿐인데 계획서를 읽는 공무원 입장에서는
+“이 사람들 지금 조직도를 모르는구나”가 된다. 내용이 아무리 좋아도 신뢰를 잃는다.</p>
+<p><strong>둘째, 손으로 고치면 꼭 빠뜨린다.</strong> 팀 이름은 본문보다 표 안에 훨씬 많이 들어 있고,
+표 셀에서는 한글이 글자를 여러 조각으로 쪼개 저장해서 찾기(Ctrl+F)로도 안 잡히는 자리가 생긴다.</p>
+<p><strong>셋째, 기계적으로 바꾸면 말이 이상해진다.</strong> 두 팀이 하나로 합쳐졌다면
+“A팀 주관, B팀 협업”이 “A팀 주관, A팀 협업”이 된다. 이건 자동 치환이 만들어내는 새 오류다.</p>
+<p>그리고 무엇보다 — <strong>대응표를 만드는 과정 자체가 개편안 비평이 된다.</strong>
+“이 구 팀에 대응하는 신 팀이 없다”는 칸이 하나 생기면, 그게 그 개편안의 가장 큰 구멍이다.
+실제로 이번에도 에너지 물적자산을 담당하던 팀에 대응하는 팀이 본부 안에 없다는 사실이
+대응표를 채우다가 드러났고, 그게 새 발제문의 핵심 논점이 됐다.</p>
+<h2 id="단계별-따라하기">단계별 따라하기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#단계별-따라하기" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1단계--조직도를-정확히-읽는다">1단계 — 조직도를 정확히 읽는다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1단계--조직도를-정확히-읽는다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>행정 조직도 PDF는 과·팀 이름을 <strong>한 글자씩 세로로 쌓아</strong> 그린다. 칸이 좁기 때문이다.
+그래서 PDF에서 텍스트를 그냥 뽑으면 ‘자 치 분 권 과’가 순서 없이 흩어진 채 나온다.</p>
+<p>해법은 간단하다. <strong>같은 x좌표(가로 위치)에 있는 글자를 한 열로 묶고 위에서 아래로 이으면</strong>
+원래 이름이 복원된다. 파이썬 PyMuPDF로 열 글자의 좌표를 읽어 ±4pt 이내면 같은 열로 본다.</p>
+<pre><code>PYTHONIOENCODING=utf-8 python orgchart_columns.py 조직도.pdf 0 540 850 370 700
+                                                  (파일)  (쪽)  (읽을 영역 x0 x1 y0 y1)
+</code></pre>
+<p>읽을 영역은 먼저 PDF를 그림으로 띄워 눈으로 잡는다. 화면 픽셀을 PDF 좌표로 바꾸는 식은
+<code>좌표 = 픽셀 ÷ 그림가로폭 × 페이지가로폭</code>이다.</p>
+<p>결과가 이렇게 나온다 — 과 이름, 정원, 그 아래 팀 이름 순서로 한 줄에 이어진다.</p>
+<pre><code>--- x=554.7
+  시|민|주|권|정|책|과 | 14 | 시민주권기획 | 시민협치숙의 | 시민참여예산평가
+</code></pre>
+<p>여기서 걸린 함정 둘.</p>
+<ul>
+<li><strong>콘솔이 한국어를 깨뜨린다.</strong> 윈도우 기본 인코딩(cp949) 때문에 결과가 전부 <code>��</code>로 보인다.
+글자를 못 읽은 게 아니라 화면에 못 그린 것이다. <code>PYTHONIOENCODING=utf-8</code>만 붙이면 된다.</li>
+<li><strong>도형으로 그린 글자는 안 잡힌다.</strong> 청사 구분 라벨(‘무 안’, ‘동 부’) 같은 건 텍스트가 아니라
+그림이라 추출되지 않았다. 안 잡히면 추측하지 말고 “확인 필요”로 남겨야 한다.</li>
+</ul>
+<p>정원 숫자가 과 이름 바로 아래 나오므로, <strong>과별 정원을 더해 본부 전체 규모를 검산</strong>한다.
+합이 안 맞으면 읽을 영역을 잘못 잡은 것이다.</p>
+<h3 id="2단계--구신-대응표를-만든다-사람이-하는-일">2단계 — 구·신 대응표를 만든다 (사람이 하는 일)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2단계--구신-대응표를-만든다-사람이-하는-일" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>여기가 이 작업의 본체다. 구 팀 하나하나에 대해 “그 업무를 어느 신 팀이 받는가”를 정한다.
+표로 만들어 문서에 그대로 싣는다. 이 표가 곧 3단계의 치환 규칙이 된다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>구 팀</th><th>신 팀</th><th>이관·통합 내용</th></tr></thead><tbody><tr><td>시민주권지원팀</td><td>시민협치숙의팀</td><td>위원회 사무지원·추첨제 시민회의·시민참여수당</td></tr><tr><td>시민정책플랫폼팀</td><td>시민협치숙의팀</td><td>디지털 플랫폼·통합콜센터를 협치숙의로 통합</td></tr><tr><td>에너지기본사회팀</td><td><strong>대응 팀 없음</strong></td><td>물적 자산 담당이 본부 밖으로 — 이 개편안의 최대 공백</td></tr></tbody></table></div>
+<p>채우면서 반드시 확인할 네 가지가 있다.</p>
+<ol>
+<li><strong>대응이 비는 칸</strong> — 기능이 다른 부서로 갔는지, 아예 사라졌는지. 이게 쟁점이다.</li>
+<li><strong>두 팀이 하나로 합쳐지는 칸</strong> — 3단계에서 “A 주관, A 협업” 같은 중복 문장이 생긴다.</li>
+<li><strong>마커의 의미 변화</strong> — ❶❷❺ 같은 번호를 붙여 썼다면, 소속이 바뀐 팀 앞의 낡은 번호도 지워야 한다.</li>
+<li><strong>다른 부서와의 중복</strong> — 새 조직도 어딘가에 같은 업무를 가진 과가 생겼을 수 있다.</li>
+</ol>
+<h3 id="3단계--문서-묶음을-일괄-치환한다">3단계 — 문서 묶음을 일괄 치환한다<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3단계--문서-묶음을-일괄-치환한다" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>대응표를 <code>옛말&lt;탭>새말</code> 한 줄씩 적은 규칙 파일로 옮기고, 문서마다 돌린다.</p>
+<pre><code>PYTHONIOENCODING=utf-8 python hwpx_retag.py rules.txt 원본.hwpx 갱신본_v1.0.hwpx
+</code></pre>
+<p><strong>규칙 순서가 중요하다.</strong> 위에서부터 먼저 적용되고, 앞 규칙이 가져간 글자는 뒤 규칙이 건드리지 않는다.
+그래서 긴 것과 문구 단위를 위에 적는다.</p>
+<pre><code># 문구 단위 — 두 팀이 합쳐져 중복이 생기는 자리를 먼저 손본다
+공동체기업육성팀 주관, 시민자산금융팀 · 시민자산AI팀 협업	사회연대경제육성팀 주관, 사회연대경제지원팀 협업
+
+# 마커까지 지워야 하는 자리를 그냥 팀명보다 위에
+❺ 에너지기본사회팀	태양광산업과(햇빛소득마을)
+에너지기본사회팀	태양광산업과(햇빛소득마을)
+
+# 긴 팀명을 짧은 것보다 위에 (부분 일치 사고 방지)
+마을공동체자산기반조성팀	마을공동체팀
+공동체자산기반조성팀	마을공동체팀
+</code></pre>
+<p>바뀐 글자만 <strong>빨간색</strong>으로 들어간다. 사람이 한글에서 열어 확인하고 수락한 뒤 검정으로 정리한다.
+검토를 거치지 않은 자동 수정본을 최종본으로 삼지 않는다 — 이게 이 작업의 안전장치다.</p>
+<p>끝나면 스크립트가 <strong>잔존 옛말 0건</strong>을 확인해 준다. 새 말이 들어갔는지만 보지 말고
+옛 말이 정말 0이 됐는지까지 봐야 한다. 양방향으로 확인하는 것이다.</p>
+<h4 id="왜-한글의-찾아-바꾸기로는-안-되는가">왜 한글의 찾아 바꾸기로는 안 되는가<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#왜-한글의-찾아-바꾸기로는-안-되는가" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h4>
+<p>한글 파일(.hwpx) 안에서 한 낱말이 <strong>여러 조각으로 쪼개져</strong> 저장되는 일이 흔하다.
+표 셀 안에서 <code>❹ 공동체기업</code> 과 <code>육성팀</code> 이 별도 조각으로 들어가 있는 식이다.
+낱말 단위로 찾으면 이런 건 통째로 놓친다. 실제로 이번 문서에서도 두 자리가 그랬다.</p>
+<p>그래서 스크립트는 문서의 모든 글자 조각을 <strong>하나로 이어붙인 뒤</strong> 낱말을 찾고,
+조각 경계를 넘는 것도 잘라 붙여 처리한다. 이게 손 작업이나 단순 찾아바꾸기와 갈리는 지점이다.</p>
+<h3 id="4단계--글자-크기와-쪽수-마무리">4단계 — 글자 크기와 쪽수 마무리<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4단계--글자-크기와-쪽수-마무리" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>옛 문서는 본문이 10pt인 경우가 많다. 사교원 문서 규칙은 본문·표 셀 모두 12pt다.
+글자 크기 정보를 담은 부분에서 1200(=12pt) 미만인 항목을 전부 1200으로 올린다.
+<strong>빨간색 사본도 같은 규칙으로 함께 올려야 한다</strong> — 안 그러면 고친 부분만 작게 남는다.</p>
+<p>글자를 키우면 표 줄이 접혀 쪽수가 늘어난다. 반드시 쪽수를 다시 재고 눈으로 본다.</p>
+<p>여기서 이번에 지킨 원칙 하나. <strong>한글이 이미 떠 있으면 쪽수 측정을 하지 않는다.</strong>
+쪽수를 재는 도구는 한글 프로그램을 불러 쓰는데, 작업이 끝나면 한글을 종료시킨다.
+사용자가 저장 안 한 문서를 열어두고 있었다면 그게 날아간다.
+이번에는 한글이 떠 있어서 측정을 건너뛰고 “쪽수 미확인”이라고 정확히 보고했다.
+<strong>확인 못 한 것을 확인했다고 적지 않는 것</strong>, 이게 자동화보다 중요하다.</p>
+<h2 id="교훈">교훈<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#교훈" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>대응표를 만드는 일이 곧 개편안 검토다.</strong> 빈칸 하나가 개편안의 구멍을 가리킨다.
+“자동화해서 빨리 고치자”로 시작한 작업이 “이 개편안에는 이런 문제가 있다”는 문서로 끝났다.</p>
+<p><strong>기계적 치환은 새 오류를 만든다.</strong> 두 팀이 하나로 합쳐진 자리, 마커가 붙은 자리 두 곳에서
+그대로 돌렸으면 말이 안 되는 문장이 나왔을 것이다. 돌리기 전에 대응표를 보며
+“이 규칙이 만들 새 문장”을 한 번 상상해 보는 시간이 필요하다.</p>
+<p><strong>고친 것은 빨갛게, 확인 못 한 것은 못 했다고.</strong> 자동화의 신뢰는 속도가 아니라
+“AI가 무엇을 건드렸는지 사람이 한눈에 볼 수 있는가”와 “모르는 걸 아는 척하지 않는가”에서 나온다.</p>
+<p><strong>파생 문서를 먼저 세어 본다.</strong> 이번에 참고문서 4종 중 2종은 이미 새 팀명을 쓰고 있어
+손댈 게 없었다. 무턱대고 4건 다 고치는 대신 먼저 전수 조사를 했기 때문에 알았다.</p>
+<h2 id="참고">참고<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#참고" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>도구: PyMuPDF(PDF 좌표 읽기), 파이썬 표준 라이브러리(zipfile·re)만으로 충분하다. 한글 프로그램은 쪽수 확인에만 쓴다.</li>
+<li>이 절차는 <code>orgchart-doc-migration</code> 스킬로 묶여 있다(사교원 AI 작업 레포 <code>skills/</code>).</li>
+<li>한글 문서를 새로 짓거나 단건 교정할 때는 <code>hwpx-powershell-edit</code> 쪽이 맞다.</li>
+<li>적용 사례: 전남광주통합특별시 통합조직도 v12(2026-09-06) 반영 — 발제문 재구성 1건, 참고문서 2종 22건 치환.</li>
+</ul>
+<p>문서 정리 = 데카(deka2026)</p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-76" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#요약" data-for="요약">요약</a></li><li class="depth-0"><a href="#왜-이-기술인가" data-for="왜-이-기술인가">왜 이 기술인가</a></li><li class="depth-0"><a href="#단계별-따라하기" data-for="단계별-따라하기">단계별 따라하기</a></li><li class="depth-1"><a href="#1단계--조직도를-정확히-읽는다" data-for="1단계--조직도를-정확히-읽는다">1단계 — 조직도를 정확히 읽는다</a></li><li class="depth-1"><a href="#2단계--구신-대응표를-만든다-사람이-하는-일" data-for="2단계--구신-대응표를-만든다-사람이-하는-일">2단계 — 구·신 대응표를 만든다 (사람이 하는 일)</a></li><li class="depth-1"><a href="#3단계--문서-묶음을-일괄-치환한다" data-for="3단계--문서-묶음을-일괄-치환한다">3단계 — 문서 묶음을 일괄 치환한다</a></li><li class="depth-1"><a href="#4단계--글자-크기와-쪽수-마무리" data-for="4단계--글자-크기와-쪽수-마무리">4단계 — 글자 크기와 쪽수 마무리</a></li><li class="depth-0"><a href="#교훈" data-for="교훈">교훈</a></li><li class="depth-0"><a href="#참고" data-for="참고">참고</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://sakyowon.poomasi.org/">사교원</a></li><li><a href="https://sakyowon.co.kr/">허브</a></li><li><a href="https://sakyowon.co.kr/admin.html">🔐 통합 관리자</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
