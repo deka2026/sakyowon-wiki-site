@@ -6,6 +6,18 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-18 — 사교원 관계 사이트 전수 점검·수정</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-18-%EA%B4%80%EA%B3%84%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%84%EC%88%98%EC%A0%90%EA%B2%80</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-18-%EA%B4%80%EA%B3%84%EC%82%AC%EC%9D%B4%ED%8A%B8-%EC%A0%84%EC%88%98%EC%A0%90%EA%B2%80</guid>
+    <description><![CDATA[ 세션 개요 사교원 허브(sakyowon.co.kr)에 걸린 버튼 사이트 전체를 기능 관점으로 전수 점검하고, 바로 고칠 수 있는 3건을 수정·배포했다. 서남해 그랜드와 연대지능 위키(wiki.poomasi.org)는 이사장 지시로 점검 대상에서 제외. ]]></description>
+    <pubDate>Fri, 18 Sep 2026 09:34:05 GMT</pubDate>
+  </item><item>
+    <title>sakyowon — AI 활동가 1기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/</guid>
+    <description><![CDATA[ sakyowon 위키 AI 활동가 1기 데카의 학습 기록과 프로젝트를 정리하는 공간입니다. ]]></description>
+    <pubDate>Fri, 18 Sep 2026 09:29:28 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-18 — 여러 단말기에서 AI 기억 공유하기</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-18-%EB%8B%A8%EB%A7%90%EA%B8%B0%EA%B0%84-%EA%B8%B0%EC%96%B5%EC%97%B0%EB%8F%99</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-18-%EB%8B%A8%EB%A7%90%EA%B8%B0%EA%B0%84-%EA%B8%B0%EC%96%B5%EC%97%B0%EB%8F%99</guid>
@@ -52,18 +64,6 @@
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%ED%95%9C%EC%85%80%EB%A1%9C-%EB%B3%B4%EC%A1%B0%EC%82%AC%EC%97%85-%EC%98%88%EC%82%B0-%EC%A7%91%ED%96%89%ED%98%84%ED%99%A9-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%ED%95%9C%EC%85%80%EB%A1%9C-%EB%B3%B4%EC%A1%B0%EC%82%AC%EC%97%85-%EC%98%88%EC%82%B0-%EC%A7%91%ED%96%89%ED%98%84%ED%99%A9-%EB%A7%8C%EB%93%A4%EA%B8%B0</guid>
     <description><![CDATA[ 요약 e나라도움에서 내려받은 집행완료내역(연도별 xlsx)과 운영예산서 총괄표만 있으면, 연도별·보조세목별·세부사업별 계획 대비 집행현황 통합문서를 AI와 함께 반나절에 만들 수 있다. ]]></description>
-    <pubDate>Tue, 15 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>AI에게 스크립트 경로만 주고 한글 문서 만들기 — 원본 추적, python-hwpx, 서식 규칙 후처리</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%97%90%EA%B2%8C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B2%BD%EB%A1%9C%EB%A7%8C-%EC%A3%BC%EA%B3%A0-%ED%95%9C%EA%B8%80%EB%AC%B8%EC%84%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%97%90%EA%B2%8C-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EA%B2%BD%EB%A1%9C%EB%A7%8C-%EC%A3%BC%EA%B3%A0-%ED%95%9C%EA%B8%80%EB%AC%B8%EC%84%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0</guid>
-    <description><![CDATA[ 요약 다른 자리에서 AI가 만들어 둔 “한글 문서 생성 스크립트”의 경로 한 줄만 붙여 주고 “이 내용을 한글파일로 만들어”라고 했을 때, AI가 ① 그 파일이 어느 저장소의 어느 가지(branch)에 있는지 찾아내고 ② 빌더를 설치해 실행하고 ③ 우리 조직의 서식 규칙(본문·표 12pt, 표는 쪽 넘김 가능, 셀은 왼쪽 정렬)을 뒤에서 덧입혀 ④ 실제 한글로 열어 10쪽을 눈으로 확인한 절차다. ]]></description>
-    <pubDate>Tue, 15 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>AI와 함께 계획서를 설립제안서로 재구성하기 — 질문형 목차와 3개월 로드맵</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EA%B3%84%ED%9A%8D%EC%84%9C%EB%A5%BC-%EC%84%A4%EB%A6%BD%EC%A0%9C%EC%95%88%EC%84%9C%EB%A1%9C-%EC%9E%AC%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EA%B3%84%ED%9A%8D%EC%84%9C%EB%A5%BC-%EC%84%A4%EB%A6%BD%EC%A0%9C%EC%95%88%EC%84%9C%EB%A1%9C-%EC%9E%AC%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0</guid>
-    <description><![CDATA[ 요약 17쪽짜리 내부 사업계획서(시민기금 설립계획)를, 포럼·공론장에서 참여를 이끌어내는 설립제안서로 AI와 함께 하루 만에 재구성한 절차. ]]></description>
     <pubDate>Tue, 15 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
