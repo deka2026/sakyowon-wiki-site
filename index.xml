@@ -6,65 +6,65 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>sakyowon — AI 활동가 1기</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/</guid>
-    <description><![CDATA[ sakyowon 위키 AI 활동가 1기 데카의 학습 기록과 프로젝트를 정리하는 공간입니다. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>핸드오버 2026-09-26 — 노트북을 조직 사설망에 붙이고 작업 PC에 열쇠로 들어가기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-26-%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%82%AC%EB%82%B4%EB%A7%9D-%ED%95%A9%EB%A5%98</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-26-%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%82%AC%EB%82%B4%EB%A7%9D-%ED%95%A9%EB%A5%98</guid>
+    <description><![CDATA[ 무엇을 했나 본부의 지시문 한 장을 받아 AI가 노트북을 조직 사설망(tailnet)에 합류시키고, 작업 PC에 비밀번호 없이 ssh로 들어가는 경로를 만들었다. ]]></description>
+    <pubDate>Sat, 26 Sep 2026 09:36:47 GMT</pubDate>
   </item><item>
-    <title>교육문화스테이션 1층 3대 사업 사업계획</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%EA%B5%90%EC%9C%A1%EB%AC%B8%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98-%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%EA%B5%90%EC%9C%A1%EB%AC%B8%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%85%98-%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D</guid>
-    <description><![CDATA[ 교육문화스테이션 1층 3대 사업 사업계획 2026-08-19 작성 기본계획(2025.11)상 A1 교육문화스테이션(구 특산품판매장 리모델링) 1층 다목적 공간의 수익사업 활용 계획. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>AI가 고장났다고 보고하기 전에 내 시험 도구부터 의심하기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EA%B0%80-%EA%B3%A0%EC%9E%A5%EB%82%AC%EB%8B%A4%EA%B3%A0-%EB%B3%B4%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EB%82%B4-%EC%8B%9C%ED%97%98-%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0-%EC%9D%98%EC%8B%AC%ED%95%98%EA%B8%B0</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EA%B0%80-%EA%B3%A0%EC%9E%A5%EB%82%AC%EB%8B%A4%EA%B3%A0-%EB%B3%B4%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EB%82%B4-%EC%8B%9C%ED%97%98-%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0-%EC%9D%98%EC%8B%AC%ED%95%98%EA%B8%B0</guid>
+    <description><![CDATA[ 요약 햇소자 상담 탭에 붙인 GPU 엔진이 어느 날 저녁 모든 질문에 “근거 자료에서 답을 찾지 못했습니다”라고만 답했다. 우리는 엔진이 고장 났다고 본부에 알렸다. 본부가 같은 질문을 넣어 보니 정답이 근거 9건과 함께 나왔다. 원인은 우리 쪽 시험 도구였다. ]]></description>
+    <pubDate>Fri, 25 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>망남항 어촌신활력증진사업 사이트</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5-%EC%82%AC%EC%9D%B4%ED%8A%B8</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5-%EC%82%AC%EC%9D%B4%ED%8A%B8</guid>
-    <description><![CDATA[ 망남항 어촌신활력증진사업 사이트 2026-07-24 업데이트 신규 사이트 deka2026/mangnam-vitality(Next.js 풀스택 + SQLite)를 구축해 배포 대기 중(mangnam.poomasi.org 예정). ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>AI에게 노트북을 조직 사설망에 붙이게 하기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%97%90%EA%B2%8C-%EB%85%B8%ED%8A%B8%EB%B6%81%EC%9D%84-%EC%A1%B0%EC%A7%81-%EC%82%AC%EC%84%A4%EB%A7%9D%EC%97%90-%EB%B6%99%EC%9D%B4%EA%B2%8C-%ED%95%98%EA%B8%B0</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%97%90%EA%B2%8C-%EB%85%B8%ED%8A%B8%EB%B6%81%EC%9D%84-%EC%A1%B0%EC%A7%81-%EC%82%AC%EC%84%A4%EB%A7%9D%EC%97%90-%EB%B6%99%EC%9D%B4%EA%B2%8C-%ED%95%98%EA%B8%B0</guid>
+    <description><![CDATA[ 요약 작은 조직이 사무실 PC와 서버를 한 사설망(tailnet)으로 묶어 두면, 어디서든 노트북 하나로 그 안에 들어가 일할 수 있다. 문제는 “노트북을 그 망에 붙이는 일”이 매번 사람 손을 탄다는 점이다. ]]></description>
+    <pubDate>Fri, 25 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>망남 앵커조직 업무 자동화 검토 (2026-08)</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%EB%A7%9D%EB%82%A8-%EC%95%B5%EC%BB%A4%EC%A1%B0%EC%A7%81-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B2%80%ED%86%A0</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%EB%A7%9D%EB%82%A8-%EC%95%B5%EC%BB%A4%EC%A1%B0%EC%A7%81-%EC%9E%90%EB%8F%99%ED%99%94-%EA%B2%80%ED%86%A0</guid>
-    <description><![CDATA[ 망남 앵커조직 업무 자동화 검토 2026-08-19, 앵커조직(사교원) 업무 중 자동화 대상을 검토한 결과. 근거는 기본계획보고서 3장(앵커조직 운영계획)과 1~2차년도 운영 경과, 기존 구축 자산(사이트·hwpx 파이프라인·인스타 콘텐츠 JSON). ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>핸드오버 2026-09-23 — 햇소자 포럼자료 반영 (09-25 사업비·부품 메뉴 추가)</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-23-%ED%96%87%EC%86%8C%EC%9E%90-%ED%8F%AC%EB%9F%BC%EB%B0%98%EC%98%81</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-23-%ED%96%87%EC%86%8C%EC%9E%90-%ED%8F%AC%EB%9F%BC%EB%B0%98%EC%98%81</guid>
+    <description><![CDATA[ 세션 개요 2026-09-22 전남광주 포럼의 발표자료 3건과 현장 녹취 4건(약 2시간 5분)을 분석해 ①햇소자 사이트 구조·기능 문서(한글 30장)를 만들고 ②그중 1~3순위 과제를 사이트에 반영·푸시했다. ]]></description>
+    <pubDate>Fri, 25 Sep 2026 09:58:13 GMT</pubDate>
   </item><item>
-    <title>파란교실 (청년교실) — 마을학교 1기 프로그램</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%ED%8C%8C%EB%9E%80%EA%B5%90%EC%8B%A4-%EC%B2%AD%EB%85%84%EA%B5%90%EC%8B%A4</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/%ED%8C%8C%EB%9E%80%EA%B5%90%EC%8B%A4-%EC%B2%AD%EB%85%84%EA%B5%90%EC%8B%A4</guid>
-    <description><![CDATA[ 망남 어촌신활력증진사업 단위사업 B2 마을학교의 청년 프로그램. 마을학교는 세대별 3교실 체계 — 연두교실(청소년) / 파란교실(청년) / 푸른교실(장년, 스킴보드 강사양성). 1기 개요 (2026-08-21 확정) 항목내용일정2026. 9. 28.(월) ~ 10. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>AI와 함께 마을협동조합 설립서류 한 벌 만들기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EB%A7%88%EC%9D%84%ED%98%91%EB%8F%99%EC%A1%B0%ED%95%A9-%EC%84%A4%EB%A6%BD%EC%84%9C%EB%A5%98-%ED%95%9C-%EB%B2%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EB%A7%88%EC%9D%84%ED%98%91%EB%8F%99%EC%A1%B0%ED%95%A9-%EC%84%A4%EB%A6%BD%EC%84%9C%EB%A5%98-%ED%95%9C-%EB%B2%8C-%EB%A7%8C%EB%93%A4%EA%B8%B0</guid>
+    <description><![CDATA[ 요약 마을에서 협동조합을 만들려면 서류가 한 장이 아니라 한 벌로 필요하다. 발기인대회 공고문, 발기인대회 회의록, 정관, 창립총회 공고문, 창립총회 회의록, 사업계획서, 수입·지출 예산서 — 일곱 가지가 서로 물려 있다. ]]></description>
+    <pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>핸드오버 2026-07-06 — 망남 사이트 v1 완성</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-06</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-06</guid>
-    <description><![CDATA[ 망남항 어촌신활력증진사업 사이트 v1 완성·푸시 완료 사이트 전체 구축: 공개 프론트(소개·추진전략·소식게시판·문의창) + 백엔드 5종(대시보드/결과보고+AI검수UI/개인·단위사업 월간실적/이나라도움 도우미) 승인제 회원 체계 (가입신청 → 최고관리자 승인 → 로그인), DB 권한(RLS)까지 승인회원 기준 이나라도움 도우미: e나라도움 매뉴얼(기재부, 140쪽) → 48섹션 지식베이스, 문답 자동 축적(향후 상담사이트 자산) 모든 백엔드 페이지에 💬 개선의견 위젯 + 대시보드 모아보기 GitHub 푸시: deka2026/mang... ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>AI와 함께 체험프로그램 사업기획안 41쪽 만들기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EC%B2%B4%ED%97%98%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%EC%95%88-41%EC%AA%BD-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%EC%B2%B4%ED%97%98%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%82%AC%EC%97%85%EA%B8%B0%ED%9A%8D%EC%95%88-41%EC%AA%BD-%EB%A7%8C%EB%93%A4%EA%B8%B0</guid>
+    <description><![CDATA[ 요약 “어촌 해변에서 주운 페트병을 녹여 3D프린터 필라멘트로 만들고, 그걸로 굿즈를 만들어 가져가는 프로그램을 하고 싶다”는 한 문장에서 출발해, 하루 만에 41쪽짜리 사업기획안(20장 + 별첨, 표 52개, 도면 4장)을 한글 파일로 뽑았다. ]]></description>
+    <pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>핸드오버 2026-07-12 — 사이트 연동·허브 신설·정식 오픈 점검</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-12</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-12</guid>
-    <description><![CDATA[ 핸드오버 2026-07-12 이번 세션에서 한 일 1. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>AI와 함께 협동조합 운영 백엔드(회계·회의록·경영공시) 만들기 — 서버 하나에 모듈로 붙이기</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%ED%98%91%EB%8F%99%EC%A1%B0%ED%95%A9-%EC%9A%B4%EC%98%81-%EB%B0%B1%EC%97%94%EB%93%9C-%ED%9A%8C%EA%B3%84-%ED%9A%8C%EC%9D%98%EB%A1%9D-%EA%B3%B5%EC%8B%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A7%9D%EB%82%A8-%EC%8B%A0%ED%99%9C%EB%A0%A5/AI%EC%99%80-%ED%95%A8%EA%BB%98-%ED%98%91%EB%8F%99%EC%A1%B0%ED%95%A9-%EC%9A%B4%EC%98%81-%EB%B0%B1%EC%97%94%EB%93%9C-%ED%9A%8C%EA%B3%84-%ED%9A%8C%EC%9D%98%EB%A1%9D-%EA%B3%B5%EC%8B%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0</guid>
+    <description><![CDATA[ 요약 망남마을협동조합 홈페이지에 운영진용 백엔드(월별 회계, 회의록 기록·보관, 주요 문서 보관)와 주민용 공개 페이지(경영공시, 사업 실적)를 하루 만에 붙였다. 새 서버를 사지도, 새 비밀번호를 만들지도 않았다. ]]></description>
+    <pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>핸드오버 2026-07-18 — 수상태양광 시범사업계획서 한글판 v2</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-18-%EC%88%98%EC%83%81%ED%83%9C%EC%96%91%EA%B4%91-%EA%B3%84%ED%9A%8D%EC%84%9Cv2</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-18-%EC%88%98%EC%83%81%ED%83%9C%EC%96%91%EA%B4%91-%EA%B3%84%ED%9A%8D%EC%84%9Cv2</guid>
-    <description><![CDATA[ 핸드오버 2026-07-18 — 수상태양광 계획서 v2 이번 세션에서 한 일 수상형태양광_행정리분양형_시범사업계획서_초안.hwpx의 편집 상태를 분석하고, 개선판 v2.hwpx를 새로 생성했다 (초안 보존, 로컬 sakyowon-ai\전남광주통합특별시\). ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>핸드오버 2026-09-25 — SQLD 과정 20회차 확대 + 학습개요 유료 계정 안내</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-25-SQLD-20%ED%9A%8C%EC%B0%A8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-25-SQLD-20%ED%9A%8C%EC%B0%A8</guid>
+    <description><![CDATA[ 날짜: 2026-09-25 이전 핸드오버: handover-20260925-academy-site-prompt-cards.md (같은 세션 앞부분) 작업 폴더: C:\Users\User\academy-site (deka2026/academy-site, main) 수행한 작업 1. ]]></description>
+    <pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>핸드오버 2026-07-18 — 팀러닝 사이트</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-18-%ED%8C%80%EB%9F%AC%EB%8B%9D</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-18-%ED%8C%80%EB%9F%AC%EB%8B%9D</guid>
-    <description><![CDATA[ 핸드오버 2026-07-18 — 사교원 사회혁신팀러닝 사이트 구축 세션 요약 이사장 지시로 팀러닝 자문·컨설팅 사이트를 하루 만에 설계→구축→배포→2차 기능(전화번호 회신·알림)까지 완료. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>핸드오버 2026-09-25 — 망남 운영 백엔드(회계·회의록·문서·공시)</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-25-%EB%A7%9D%EB%82%A8-%EC%9A%B4%EC%98%81-%EB%B0%B1%EC%97%94%EB%93%9C</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-25-%EB%A7%9D%EB%82%A8-%EC%9A%B4%EC%98%81-%EB%B0%B1%EC%97%94%EB%93%9C</guid>
+    <description><![CDATA[ 날짜: 2026-09-25 이전 핸드오버: handover-20260925-mangnam-plogging-3dprint-plan.md 작업 폴더: C:\Users\User\mangnam-coop (deka2026/mangnam-coop, main) 수행한 작업 1. ]]></description>
+    <pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
   </item><item>
-    <title>핸드오버 2026-07-18 — 아카데미 AI 학습 가이드 대개편</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-18</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-07-18</guid>
-    <description><![CDATA[ 핸드오버 2026-07-18 이번 세션에서 한 일 (전부 라이브 반영 확인) 아카데미 사이트(deka2026.github.io/academy-site)의 AI 학습 가이드 메뉴를 대개편했다. 커밋 97055b7, 23d2f74. 1. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 03:26:19 GMT</pubDate>
+    <title>핸드오버 2026-09-25 — 아카데미 실습·학습 가이드를 프롬프트 카드로</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-25-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%8B%A4%EC%8A%B5-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%B9%B4%EB%93%9C</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-25-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%8B%A4%EC%8A%B5-%ED%94%84%EB%A1%AC%ED%94%84%ED%8A%B8%EC%B9%B4%EB%93%9C</guid>
+    <description><![CDATA[ 날짜: 2026-09-25 이전 핸드오버: handover-20260925-hatsoja-member-roles.md (같은 날 병행 세션) 작업 폴더: C:\Users\User\academy-site (deka2026/academy-site, main) → 사본 D:\사교원 개발그룹\사교원 개발그룹\연대지능활동가 아카데미\ 수행한 작업 1. ]]></description>
+    <pubDate>Thu, 24 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
