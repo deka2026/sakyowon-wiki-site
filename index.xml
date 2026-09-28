@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-28 — 서울시의회 축제 연계 지류상품권 조례안·사업계획서</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9D%98%ED%9A%8C-%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90-%EC%A1%B0%EB%A1%80%EC%95%88</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9D%98%ED%9A%8C-%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90-%EC%A1%B0%EB%A1%80%EC%95%88</guid>
+    <description><![CDATA[ 핸드오버 2026-09-28 — 서울시의회 축제 연계 지류상품권 조례안·사업계획서 세션 요약 이사장님이 D:\사교원 개발그룹\의회 정책지원관 컨설팅 폴더의 자료를 읽고, 축제 때 지류형 지역화폐를 발급해 지역상권을 살리는 방안을 조례로 만들고 사업계획서까지 써 달라고 하셔서 시작한 세션이다. ]]></description>
+    <pubDate>Mon, 28 Sep 2026 05:01:37 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-28 — 사명선언문 배포와 HWPX 줄겹침 결함 수정</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8-HWPX%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8-HWPX%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-D%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%ED%98%84%ED%99%A9</guid>
     <description><![CDATA[ 핸드오버 2026-09-27 — D드라이브 전수 현황 조사 이전 핸드오버: 핸드오버-2026-09-27-A호기-자료이관 세션 위치: /home/deka/deka_chat (데스크톱 앱 Code 탭) 세션 요약 이사장님이 “D 드라이브에 있는 파일들을 다 읽을 수 있어?”라고 물어, WSL 마운트 상태를 확인하고 D 드라이브 전체의 용량·구조를 조사한 세션이다. ]]></description>
     <pubDate>Sat, 26 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-26 — 노트북을 조직 사설망에 붙이고 작업 PC에 열쇠로 들어가기</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-26-%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%82%AC%EB%82%B4%EB%A7%9D-%ED%95%A9%EB%A5%98</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-26-%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%82%AC%EB%82%B4%EB%A7%9D-%ED%95%A9%EB%A5%98</guid>
-    <description><![CDATA[ 무엇을 했나 본부의 지시문 한 장을 받아 AI가 노트북을 조직 사설망(tailnet)에 합류시키고, 작업 PC에 비밀번호 없이 ssh로 들어가는 경로를 만들었다. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 09:36:47 GMT</pubDate>
   </item>
     </channel>
   </rss>
