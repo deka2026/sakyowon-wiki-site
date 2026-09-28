@@ -24,6 +24,12 @@
     <description><![CDATA[ 핸드오버 2026-09-28 — 가비아 VPS 해지와 완도 B호기 로컬서버 전환 세션 요약 이사장님이 가비아 VPS를 해지하고 사교원 서버 전체를 완도 사무실의 로컬 서버(B호기)로 옮기셨다. ]]></description>
     <pubDate>Mon, 28 Sep 2026 02:22:31 GMT</pubDate>
   </item><item>
+    <title>사회혁신교육원 사회적협동조합 사명선언문</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EC%BD%94%EC%96%B4%EB%B2%95%EC%9D%B8/%EC%82%AC%EA%B5%90%EC%9B%90_%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%BD%94%EC%96%B4%EB%B2%95%EC%9D%B8/%EC%82%AC%EA%B5%90%EC%9B%90_%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8</guid>
+    <description><![CDATA[ 사명선언문 사회혁신교육원 사회적협동조합 하나. 우리의 사명 컨설팅과 연구조사와 교육으로 사회혁신 인재를 길러냄으로써, 협동과 연대, 순환과 공생, 나눔의 가치로 성장하는 지역사회혁신을 이룬다. 이 문장은 수사가 아니다. 우리 정관 제2조에 적힌 설립 목적 그대로다. ]]></description>
+    <pubDate>Sun, 27 Sep 2026 15:00:00 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-27 — gws 구글 워크스페이스 CLI 제작과 OAuth 설정</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-gws-cli</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-gws-cli</guid>
@@ -58,12 +64,6 @@
     <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EA%B0%80-%EA%B3%A0%EC%9E%A5%EB%82%AC%EB%8B%A4%EA%B3%A0-%EB%B3%B4%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EB%82%B4-%EC%8B%9C%ED%97%98-%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0-%EC%9D%98%EC%8B%AC%ED%95%98%EA%B8%B0</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EA%B0%80-%EA%B3%A0%EC%9E%A5%EB%82%AC%EB%8B%A4%EA%B3%A0-%EB%B3%B4%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EB%82%B4-%EC%8B%9C%ED%97%98-%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0-%EC%9D%98%EC%8B%AC%ED%95%98%EA%B8%B0</guid>
     <description><![CDATA[ 요약 햇소자 상담 탭에 붙인 GPU 엔진이 어느 날 저녁 모든 질문에 “근거 자료에서 답을 찾지 못했습니다”라고만 답했다. 우리는 엔진이 고장 났다고 본부에 알렸다. 본부가 같은 질문을 넣어 보니 정답이 근거 9건과 함께 나왔다. 원인은 우리 쪽 시험 도구였다. ]]></description>
-    <pubDate>Fri, 25 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>AI에게 노트북을 조직 사설망에 붙이게 하기</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%97%90%EA%B2%8C-%EB%85%B8%ED%8A%B8%EB%B6%81%EC%9D%84-%EC%A1%B0%EC%A7%81-%EC%82%AC%EC%84%A4%EB%A7%9D%EC%97%90-%EB%B6%99%EC%9D%B4%EA%B2%8C-%ED%95%98%EA%B8%B0</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EC%97%90%EA%B2%8C-%EB%85%B8%ED%8A%B8%EB%B6%81%EC%9D%84-%EC%A1%B0%EC%A7%81-%EC%82%AC%EC%84%A4%EB%A7%9D%EC%97%90-%EB%B6%99%EC%9D%B4%EA%B2%8C-%ED%95%98%EA%B8%B0</guid>
-    <description><![CDATA[ 요약 작은 조직이 사무실 PC와 서버를 한 사설망(tailnet)으로 묶어 두면, 어디서든 노트북 하나로 그 안에 들어가 일할 수 있다. 문제는 “노트북을 그 망에 붙이는 일”이 매번 사람 손을 탄다는 점이다. ]]></description>
     <pubDate>Fri, 25 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
