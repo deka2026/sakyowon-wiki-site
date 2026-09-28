@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-28 — 사명선언문 배포와 HWPX 줄겹침 결함 수정</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8-HWPX%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8-HWPX%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83</guid>
+    <description><![CDATA[ 핸드오버 2026-09-28 — 사명선언문 배포와 HWPX 줄겹침 결함 수정 세션 요약 이사장님이 쓰신 사명선언문을 위키에 커밋해 라이브에 올리고, 한글 파일(.hwpx)로도 만들어 드렸다. ]]></description>
+    <pubDate>Mon, 28 Sep 2026 04:59:59 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-28 — 데카 작업 보고 4시간 자동화(텔레그램)</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9E%91%EC%97%85%EB%B3%B4%EA%B3%A0-%EC%9E%90%EB%8F%99%ED%99%94</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9E%91%EC%97%85%EB%B3%B4%EA%B3%A0-%EC%9E%90%EB%8F%99%ED%99%94</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-26-%EB%85%B8%ED%8A%B8%EB%B6%81-%EC%82%AC%EB%82%B4%EB%A7%9D-%ED%95%A9%EB%A5%98</guid>
     <description><![CDATA[ 무엇을 했나 본부의 지시문 한 장을 받아 AI가 노트북을 조직 사설망(tailnet)에 합류시키고, 작업 PC에 비밀번호 없이 ssh로 들어가는 경로를 만들었다. ]]></description>
     <pubDate>Sat, 26 Sep 2026 09:36:47 GMT</pubDate>
-  </item><item>
-    <title>AI가 고장났다고 보고하기 전에 내 시험 도구부터 의심하기</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EA%B0%80-%EA%B3%A0%EC%9E%A5%EB%82%AC%EB%8B%A4%EA%B3%A0-%EB%B3%B4%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EB%82%B4-%EC%8B%9C%ED%97%98-%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0-%EC%9D%98%EC%8B%AC%ED%95%98%EA%B8%B0</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EC%97%B0%EB%8C%80%EC%A7%80%EB%8A%A5/AI%EA%B0%80-%EA%B3%A0%EC%9E%A5%EB%82%AC%EB%8B%A4%EA%B3%A0-%EB%B3%B4%EA%B3%A0%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EB%82%B4-%EC%8B%9C%ED%97%98-%EB%8F%84%EA%B5%AC%EB%B6%80%ED%84%B0-%EC%9D%98%EC%8B%AC%ED%95%98%EA%B8%B0</guid>
-    <description><![CDATA[ 요약 햇소자 상담 탭에 붙인 GPU 엔진이 어느 날 저녁 모든 질문에 “근거 자료에서 답을 찾지 못했습니다”라고만 답했다. 우리는 엔진이 고장 났다고 본부에 알렸다. 본부가 같은 질문을 넣어 보니 정답이 근거 9건과 함께 나왔다. 원인은 우리 쪽 시험 도구였다. ]]></description>
-    <pubDate>Fri, 25 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
