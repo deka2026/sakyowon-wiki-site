@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-28 — 햇소자 법령 규칙 엔진·자료함 전환, 아펙스 /api 복구와 자동배포</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%96%87%EC%86%8C%EC%9E%90-%EB%B2%95%EB%A0%B9%EC%97%94%EC%A7%84-%EC%9E%90%EB%A3%8C%ED%95%A8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%96%87%EC%86%8C%EC%9E%90-%EB%B2%95%EB%A0%B9%EC%97%94%EC%A7%84-%EC%9E%90%EB%A3%8C%ED%95%A8</guid>
+    <description><![CDATA[ 세션 요약 햇빛소득마을 협동조합에 걸리는 법령(9개 영역)과 전남광주 조례를 국가법령정보센터 원문으로 전수 조사한 뒤, 그 결과를 햇소자 사이트에 문장이 아니라 실행되는 규칙으로 심었다. ]]></description>
+    <pubDate>Mon, 28 Sep 2026 05:51:05 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-28 — 서울시의회 축제 연계 지류상품권 조례안·사업계획서</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9D%98%ED%9A%8C-%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90-%EC%A1%B0%EB%A1%80%EC%95%88</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9D%98%ED%9A%8C-%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90-%EC%A1%B0%EB%A1%80%EC%95%88</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-A%ED%98%B8%EA%B8%B0-%EC%9E%90%EB%A3%8C%EC%9D%B4%EA%B4%80</guid>
     <description><![CDATA[ 핸드오버 2026-09-27 — A호기 자료 이관 확인 및 B호기 정착 세션 요약 이사장님이 “A호기에서 가져온 파일들은 어디에 있어?”라고 물어 확인한 세션이다. 같은 날 오전·오후에 걸쳐 두 건의 이관이 이미 끝나 있었고, 두 건 모두 검증을 통과한 상태였다. ]]></description>
     <pubDate>Sun, 27 Sep 2026 08:33:15 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-27 — D드라이브 전수 현황 조사</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-D%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%ED%98%84%ED%99%A9</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-D%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%ED%98%84%ED%99%A9</guid>
-    <description><![CDATA[ 핸드오버 2026-09-27 — D드라이브 전수 현황 조사 이전 핸드오버: 핸드오버-2026-09-27-A호기-자료이관 세션 위치: /home/deka/deka_chat (데스크톱 앱 Code 탭) 세션 요약 이사장님이 “D 드라이브에 있는 파일들을 다 읽을 수 있어?”라고 물어, WSL 마운트 상태를 확인하고 D 드라이브 전체의 용량·구조를 조사한 세션이다. ]]></description>
-    <pubDate>Sat, 26 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
