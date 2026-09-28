@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-29 — 데이터 저장소 완도 B 배포, 사명선언문 한글본 재작성</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8</guid>
+    <description><![CDATA[ 핸드오버 2026-09-29 — 데이터 저장소 완도 B 배포, 사명선언문 한글본 재작성 세션 요약 이사장님의 “서버를 로컬로 변경했어, 확인하고 작업해” 지시로 완도 B 서버 상태를 실측하고, 9월 27일부터 밀려 있던 데이터 저장소 API를 직접 배포해 라이브까지 검증했다. ]]></description>
+    <pubDate>Mon, 28 Sep 2026 23:25:10 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-28 — 한글문서 서식 집 규칙과 해바람물자산재단 제안서 v2.2</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%95%9C%EA%B8%80%EC%84%9C%EC%8B%9D-%EC%A7%91%EA%B7%9C%EC%B9%99</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%95%9C%EA%B8%80%EC%84%9C%EC%8B%9D-%EC%A7%91%EA%B7%9C%EC%B9%99</guid>
@@ -58,12 +64,6 @@
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-CF-Pages-%EC%A0%95%EB%A6%AC</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-CF-Pages-%EC%A0%95%EB%A6%AC</guid>
     <description><![CDATA[ 핸드오버 2026-09-28 — CF Pages 정리와 토큰 노출 사고 이전 핸드오버: 핸드오버-2026-09-28-아펙스-로컬전환 세션 위치: /home/deka/deka_chat (데스크톱 앱 Code 탭) 세션 요약 전날 “정리해” 세션의 미완료였던 위키 라이브 반영을 이어받아 시작했으나, 그 사이 다른 세션이 아펙스를 완도 B로 넘겨 요청 자체가 무효가 된 것을 확인했다. ]]></description>
-    <pubDate>Sun, 27 Sep 2026 15:00:00 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-28 — 아카데미 활동가 의견 반영·자체서버 전환</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%9D%98%EA%B2%AC%EB%B0%98%EC%98%81</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%95%84%EC%B9%B4%EB%8D%B0%EB%AF%B8-%EC%9D%98%EA%B2%AC%EB%B0%98%EC%98%81</guid>
-    <description><![CDATA[ 세션 요약 연대지능활동가 아카데미 사이트(sakyowon.co.kr/academy-site/)에 쌓인 활동가 의견을 분석해 개선안을 추리고, 그 목록을 끝까지 반영했다. ]]></description>
     <pubDate>Sun, 27 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
