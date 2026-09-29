@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-29 — GPS 출퇴근·휴가결재 시스템 구축과 이사장 1~9월 근무자료 이관</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPS%EC%B6%9C%ED%87%B4%EA%B7%BC%EC%8B%9C%EC%8A%A4%ED%85%9C</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPS%EC%B6%9C%ED%87%B4%EA%B7%BC%EC%8B%9C%EC%8A%A4%ED%85%9C</guid>
+    <description><![CDATA[ 핸드오버 2026-09-29 — GPS 출퇴근·휴가결재 시스템 구축과 이사장 1~9월 근무자료 이관 세션 요약 완도군 군내리 사무실을 중심으로 정해진 반경 안에서만 출퇴근이 찍히는 근태 시스템을 새로 만들어 work.sakyowon.co.kr 로 개통했다. ]]></description>
+    <pubDate>Tue, 29 Sep 2026 06:47:35 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-29 — e나라도움 조회 연동과 직원전용 질문 창 물리기</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-e%EB%82%98%EB%9D%BC%EB%8F%84%EC%9B%80-%EC%97%B0%EB%8F%99</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-e%EB%82%98%EB%9D%BC%EB%8F%84%EC%9B%80-%EC%97%B0%EB%8F%99</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-D%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%A4%91%EB%B3%B5%EC%A0%95%EB%A6%AC</guid>
     <description><![CDATA[ 세션 요약 이사장님의 “D드라이브 파일을 새롭게 분류하자”는 지시로 시작했으나, 실측해 보니 분류보다 중복 제거가 먼저였다. 375GB / 31,816개 파일 중 절반 이상이 같은 파일의 사본이었기 때문이다. ]]></description>
     <pubDate>Mon, 28 Sep 2026 07:23:57 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-28 — 햇소자 법령 규칙 엔진·자료함 전환, 아펙스 /api 복구와 자동배포</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%96%87%EC%86%8C%EC%9E%90-%EB%B2%95%EB%A0%B9%EC%97%94%EC%A7%84-%EC%9E%90%EB%A3%8C%ED%95%A8</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%96%87%EC%86%8C%EC%9E%90-%EB%B2%95%EB%A0%B9%EC%97%94%EC%A7%84-%EC%9E%90%EB%A3%8C%ED%95%A8</guid>
-    <description><![CDATA[ 세션 요약 햇빛소득마을 협동조합에 걸리는 법령(9개 영역)과 전남광주 조례를 국가법령정보센터 원문으로 전수 조사한 뒤, 그 결과를 햇소자 사이트에 문장이 아니라 실행되는 규칙으로 심었다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 07:17:13 GMT</pubDate>
   </item>
     </channel>
   </rss>
