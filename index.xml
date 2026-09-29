@@ -6,6 +6,18 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-29 — GPU 사용량 실측과 직원전용 질문 라이브</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPU%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPU%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</guid>
+    <description><![CDATA[ 세션 요약 이사장님이 「사교원 서버를 통해 하는 작업에서 GPU 시스템을 얼마나 사용하는지」 물으셨다. 처음에는 서버 자체의 그래픽 장치를 재어 「GPU를 쓰지 않는다」고 답했는데, 여쭌 대상이 NIPA 고성능컴퓨팅 지원사업으로 배정받은 H200이었다. ]]></description>
+    <pubDate>Tue, 29 Sep 2026 05:56:54 GMT</pubDate>
+  </item><item>
+    <title>핸드오버 2026-09-29 — 의정지원 시스템 구축과 의정소통 고도화</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EC%9D%98%EC%A0%95%EC%A7%80%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EC%9D%98%EC%A0%95%EC%A7%80%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C</guid>
+    <description><![CDATA[ 핸드오버 2026-09-29 — 의정지원 시스템 구축과 의정소통 고도화 세션 요약 서울시의회 주택공간위원회 정책지원관을 돕는 의정지원 시스템(talk.sakyowon.co.kr/system)을 새로 만들고, 이미 쓰고 있던 의정소통 대화방을 함께 손봤다. ]]></description>
+    <pubDate>Tue, 29 Sep 2026 05:56:54 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-29 — e나라도움 조회 연동과 직원전용 질문 창 물리기</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-e%EB%82%98%EB%9D%BC%EB%8F%84%EC%9B%80-%EC%97%B0%EB%8F%99</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-e%EB%82%98%EB%9D%BC%EB%8F%84%EC%9B%80-%EC%97%B0%EB%8F%99</guid>
@@ -53,18 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9D%98%ED%9A%8C-%EC%A7%80%EC%97%AD%ED%99%94%ED%8F%90-%EC%A1%B0%EB%A1%80%EC%95%88</guid>
     <description><![CDATA[ 핸드오버 2026-09-28 — 서울시의회 축제 연계 지류상품권 조례안·사업계획서 세션 요약 이사장님이 D:\사교원 개발그룹\의회 정책지원관 컨설팅 폴더의 자료를 읽고, 축제 때 지류형 지역화폐를 발급해 지역상권을 살리는 방안을 조례로 만들고 사업계획서까지 써 달라고 하셔서 시작한 세션이다. ]]></description>
     <pubDate>Mon, 28 Sep 2026 05:01:37 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-28 — 사명선언문 배포와 HWPX 줄겹침 결함 수정</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8-HWPX%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8-HWPX%EB%A0%88%EC%9D%B4%EC%95%84%EC%9B%83</guid>
-    <description><![CDATA[ 핸드오버 2026-09-28 — 사명선언문 배포와 HWPX 줄겹침 결함 수정 세션 요약 이사장님이 쓰신 사명선언문을 위키에 커밋해 라이브에 올리고, 한글 파일(.hwpx)로도 만들어 드렸다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 04:59:59 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-28 — 데카 작업 보고 4시간 자동화(텔레그램)</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9E%91%EC%97%85%EB%B3%B4%EA%B3%A0-%EC%9E%90%EB%8F%99%ED%99%94</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%EC%9E%91%EC%97%85%EB%B3%B4%EA%B3%A0-%EC%9E%90%EB%8F%99%ED%99%94</guid>
-    <description><![CDATA[ 핸드오버 2026-09-28 — 데카 작업 보고 4시간 자동화(텔레그램) 세션 요약 이사장님이 “네가 한 작업을 텔레방에 4시간 단위로 알려줘”라고 지시하셨다. 데카가 한 일을 증거에서 자동으로 긁어 일영민수 방에 요약해 올리는 도구 데카보고 를 만들었다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 03:02:26 GMT</pubDate>
   </item>
     </channel>
   </rss>
