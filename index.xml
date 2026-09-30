@@ -6,11 +6,35 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-09-27 — gws 구글 워크스페이스 CLI 제작과 OAuth 설정</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-gws-cli</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-gws-cli</guid>
+    <description><![CDATA[ 핸드오버 2026-09-27 — gws 구글 워크스페이스 CLI 제작과 OAuth 설정 세션 요약 이사장님의 “gws cli를 만들어” 지시로 구글 워크스페이스(드라이브·문서·시트·지메일·캘린더)를 터미널에서 다루는 명령줄 도구 gws 를 만들었다. ]]></description>
+    <pubDate>Wed, 30 Sep 2026 03:13:48 GMT</pubDate>
+  </item><item>
+    <title>핸드오버 2026-09-28 — D드라이브 중복 정리(165GB 회수)와 망남 구글드라이브 수신</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-D%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%A4%91%EB%B3%B5%EC%A0%95%EB%A6%AC</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-D%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%A4%91%EB%B3%B5%EC%A0%95%EB%A6%AC</guid>
+    <description><![CDATA[ 세션 요약 이사장님의 “D드라이브 파일을 새롭게 분류하자”는 지시로 시작했으나, 실측해 보니 분류보다 중복 제거가 먼저였다. 375GB / 31,816개 파일 중 절반 이상이 같은 파일의 사본이었기 때문이다. ]]></description>
+    <pubDate>Wed, 30 Sep 2026 03:13:48 GMT</pubDate>
+  </item><item>
+    <title>핸드오버 2026-09-29 — 구글 드라이브 23개 계정 서버 이관(5개 완료)</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EA%B5%AC%EA%B8%80%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%9D%B4%EA%B4%80</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EA%B5%AC%EA%B8%80%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%9D%B4%EA%B4%80</guid>
+    <description><![CDATA[ 핸드오버 2026-09-29 — 구글 드라이브 23개 계정 서버 이관 세션 요약 이사장님 지시 “구글 드라이브 자료를 서버로 내리고 무료 요금제만 쓰겠다”에 따라, 전날 만든 gws CLI 로 사교원 지메일 계정의 드라이브 자료를 이 기계(완도 B호기)의 /mnt/d 로 내려받았다. ]]></description>
+    <pubDate>Wed, 30 Sep 2026 03:13:48 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-30 — 근태 앱 근무지별 GPS 설정과 「근무지 관리」 권한</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-30-%EA%B7%BC%EB%AC%B4%EC%A7%80%EB%B3%84GPS-%EA%B6%8C%ED%95%9C</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-30-%EA%B7%BC%EB%AC%B4%EC%A7%80%EB%B3%84GPS-%EA%B6%8C%ED%95%9C</guid>
     <description><![CDATA[ 핸드오버 2026-09-30 — 근무지별 GPS 설정과 근무지 관리 권한 세션 요약 사교원 근태 앱(work.sakyowon.co.kr)이 완도군 군내리 사무실 한 곳만 인식하던 것을, 근무지를 여러 곳 두고 각 근무지마다 중심좌표·반경·GPS 오차 허용치를 따로 설정하는 구조로 바꿨다. ]]></description>
-    <pubDate>Wed, 30 Sep 2026 03:11:34 GMT</pubDate>
+    <pubDate>Wed, 30 Sep 2026 03:13:48 GMT</pubDate>
+  </item><item>
+    <title>핸드오버 2026-09-30 — 위키 개인정보 노출 차단 · 구글 계정 전수 파악</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-30-%EC%9C%84%ED%82%A4-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EB%85%B8%EC%B6%9C%EC%B0%A8%EB%8B%A8</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-30-%EC%9C%84%ED%82%A4-%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-%EB%85%B8%EC%B6%9C%EC%B0%A8%EB%8B%A8</guid>
+    <description><![CDATA[ 핸드오버 2026-09-30 — 위키 개인정보 노출 차단 · 구글 계정 전수 파악 세션 요약 구글 드라이브 해지 건을 조사하다가 사교원이 쓰는 구글 계정이 1개가 아니라 23개라는 사실을 확인했다. 사업마다 지메일을 새로 파서 자료창고로 쓰는 방식이었다. ]]></description>
+    <pubDate>Wed, 30 Sep 2026 03:13:48 GMT</pubDate>
   </item><item>
     <title>핸드오버 2026-09-29 — GPS 출퇴근·휴가결재 시스템 구축과 이사장 1~9월 근무자료 이관</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPS%EC%B6%9C%ED%87%B4%EA%B7%BC%EC%8B%9C%EC%8A%A4%ED%85%9C</link>
@@ -23,12 +47,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-e%EB%82%98%EB%9D%BC%EB%8F%84%EC%9B%80-%EC%97%B0%EB%8F%99</guid>
     <description><![CDATA[ 세션 요약 이사장님이 e나라도움(국고보조금통합관리시스템)에 로그인해 두신 크롬 세션을 이어받아, 데카가 이사장님 계정 권한으로 보조사업 자료를 읽고 질문에 답할 수 있게 통로를 만들었다. ]]></description>
     <pubDate>Tue, 29 Sep 2026 06:14:17 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-29 — 구글 드라이브 23개 계정 서버 이관(5개 완료)</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EA%B5%AC%EA%B8%80%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%9D%B4%EA%B4%80</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EA%B5%AC%EA%B8%80%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%9D%B4%EA%B4%80</guid>
-    <description><![CDATA[ 핸드오버 2026-09-29 — 구글 드라이브 23개 계정 서버 이관 세션 요약 이사장님 지시 “구글 드라이브 자료를 서버로 내리고 무료 요금제만 쓰겠다”에 따라, 전날 만든 gws CLI 로 사교원 지메일 계정의 드라이브 자료를 이 기계(완도 B호기)의 /mnt/d 로 내려받았다. ]]></description>
-    <pubDate>Tue, 29 Sep 2026 05:57:46 GMT</pubDate>
   </item><item>
     <title>핸드오버 2026-09-29 — GPU 사용량 실측과 직원전용 질문 라이브</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPU%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</link>
@@ -47,24 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%AC%B8%EC%84%9C%EC%9E%90%EB%8F%99%ED%8C%90%EB%8F%85-API</guid>
     <description><![CDATA[ 세션 요약 전날 핸드오버(핸드오버-2026-09-28-햇소자-법령엔진-자료함) 이후 이어진 작업이다. ]]></description>
     <pubDate>Mon, 28 Sep 2026 23:28:43 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-29 — 데이터 저장소 완도 B 배포, 사명선언문 한글본 재작성</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%A0%80%EC%9E%A5%EC%86%8C-%EC%82%AC%EB%AA%85%EC%84%A0%EC%96%B8%EB%AC%B8</guid>
-    <description><![CDATA[ 핸드오버 2026-09-29 — 데이터 저장소 완도 B 배포, 사명선언문 한글본 재작성 세션 요약 이사장님의 “서버를 로컬로 변경했어, 확인하고 작업해” 지시로 완도 B 서버 상태를 실측하고, 9월 27일부터 밀려 있던 데이터 저장소 API를 직접 배포해 라이브까지 검증했다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 23:25:10 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-28 — 한글문서 서식 집 규칙과 해바람물자산재단 제안서 v2.2</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%95%9C%EA%B8%80%EC%84%9C%EC%8B%9D-%EC%A7%91%EA%B7%9C%EC%B9%99</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-28-%ED%95%9C%EA%B8%80%EC%84%9C%EC%8B%9D-%EC%A7%91%EA%B7%9C%EC%B9%99</guid>
-    <description><![CDATA[ 핸드오버 2026-09-28 — 한글문서 서식 집 규칙과 해바람물자산재단 제안서 v2.2 세션 요약 전남광주해바람물자산재단 설립제안서 v2.1을 고치려고 문서를 열었다가, 이사장님이 서식 자체를 바꾸라고 지시하셨다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 23:20:09 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-29 — 직원전용 질문 창(사내 자료 근거 + 고성능컴퓨팅 작성)</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</guid>
-    <description><![CDATA[ 세션 요약 이사장님 지시로 사교원 직원만 쓰는 질문 창을 만들어 라이브에 올렸다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 15:00:00 GMT</pubDate>
   </item>
     </channel>
   </rss>
