@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-10-02 — 구글 드라이브 수신분 중복 대조와 역전 정리</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-02-%EA%B5%AC%EA%B8%80%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%A4%91%EB%B3%B5%EB%8C%80%EC%A1%B0</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-02-%EA%B5%AC%EA%B8%80%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B8%8C-%EC%A4%91%EB%B3%B5%EB%8C%80%EC%A1%B0</guid>
+    <description><![CDATA[ 핸드오버 2026-10-02 — 구글 드라이브 수신분 중복 대조와 역전 정리 세션 요약 구글 드라이브에서 받은 자료(5개 계정)와 D드라이브에 원래 있던 자료 사이의 중복을 md5 로 대조했다. ]]></description>
+    <pubDate>Fri, 02 Oct 2026 04:25:20 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-09-27 — gws 구글 워크스페이스 CLI 제작과 OAuth 설정</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-gws-cli</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-27-gws-cli</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EC%9D%98%EC%A0%95%EC%A7%80%EC%9B%90%EC%8B%9C%EC%8A%A4%ED%85%9C</guid>
     <description><![CDATA[ 핸드오버 2026-09-29 — 의정지원 시스템 구축과 의정소통 고도화 세션 요약 서울시의회 주택공간위원회 정책지원관을 돕는 의정지원 시스템(talk.sakyowon.co.kr/system)을 새로 만들고, 이미 쓰고 있던 의정소통 대화방을 함께 손봤다. ]]></description>
     <pubDate>Tue, 29 Sep 2026 05:56:54 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-29 — 문서 자동판독 API 자력 구현, 지미 편지 정정, 감시 배선</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%AC%B8%EC%84%9C%EC%9E%90%EB%8F%99%ED%8C%90%EB%8F%85-API</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-%EB%AC%B8%EC%84%9C%EC%9E%90%EB%8F%99%ED%8C%90%EB%8F%85-API</guid>
-    <description><![CDATA[ 세션 요약 전날 핸드오버(핸드오버-2026-09-28-햇소자-법령엔진-자료함) 이후 이어진 작업이다. ]]></description>
-    <pubDate>Mon, 28 Sep 2026 23:28:43 GMT</pubDate>
   </item>
     </channel>
   </rss>
