@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-10-02 — 완도 B호기 느려짐·멈춤 진단과 완충 설정</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-02-B%ED%98%B8%EA%B8%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%99%84%EC%B6%A9</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-02-B%ED%98%B8%EA%B8%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EC%99%84%EC%B6%A9</guid>
+    <description><![CDATA[ 세션 요약 이사장님이 “서버 컴퓨터를 오래 켜 두거나 인터넷 창을 많이 열면 느려지고 다운되는데 어떻게 막느냐”고 물으셨다. 완도 B호기(서버 겸 업무용 PC)를 실측해 보니 원인은 램 16GB 부족이었다. ]]></description>
+    <pubDate>Fri, 02 Oct 2026 07:26:46 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-10-02 — 망남리 소각장 전문가 강의 요청서·한글문서 편집 방식 확정</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-02-%EB%A7%9D%EB%82%A8%EC%86%8C%EA%B0%81%EC%9E%A5-%EA%B0%95%EC%9D%98%EC%9A%94%EC%B2%AD%EC%84%9C</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-02-%EB%A7%9D%EB%82%A8%EC%86%8C%EA%B0%81%EC%9E%A5-%EA%B0%95%EC%9D%98%EC%9A%94%EC%B2%AD%EC%84%9C</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-e%EB%82%98%EB%9D%BC%EB%8F%84%EC%9B%80-%EC%97%B0%EB%8F%99</guid>
     <description><![CDATA[ 세션 요약 이사장님이 e나라도움(국고보조금통합관리시스템)에 로그인해 두신 크롬 세션을 이어받아, 데카가 이사장님 계정 권한으로 보조사업 자료를 읽고 질문에 답할 수 있게 통로를 만들었다. ]]></description>
     <pubDate>Tue, 29 Sep 2026 06:14:17 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-09-29 — GPU 사용량 실측과 직원전용 질문 라이브</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPU%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-09-29-GPU%EC%82%AC%EC%9A%A9%EB%9F%89-%EC%A7%81%EC%9B%90%EC%A0%84%EC%9A%A9%EC%A7%88%EB%AC%B8</guid>
-    <description><![CDATA[ 세션 요약 이사장님이 「사교원 서버를 통해 하는 작업에서 GPU 시스템을 얼마나 사용하는지」 물으셨다. 처음에는 서버 자체의 그래픽 장치를 재어 「GPU를 쓰지 않는다」고 답했는데, 여쭌 대상이 NIPA 고성능컴퓨팅 지원사업으로 배정받은 H200이었다. ]]></description>
-    <pubDate>Tue, 29 Sep 2026 05:56:54 GMT</pubDate>
   </item>
     </channel>
   </rss>
