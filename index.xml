@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-10-06 — 통합계정 회원 등급(일반·자료·직원) · 홈페이지 첫 화면 정리</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-06-%ED%9A%8C%EC%9B%90%EB%93%B1%EA%B8%89-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%A0%95%EB%A6%AC</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-06-%ED%9A%8C%EC%9B%90%EB%93%B1%EA%B8%89-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EC%A0%95%EB%A6%AC</guid>
+    <description><![CDATA[ 세션 요약 10월 5일 정리 이후 이어진 작업이다. 이사장님 지시로 사교원 통합계정에 회원 등급(일반회원·자료회원·직원회원)을 만들었다. 정책지원관 지원시스템은 자료회원 이상, 그룹웨어는 직원회원 이상만 들어간다. ]]></description>
+    <pubDate>Mon, 05 Oct 2026 23:02:47 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-10-05 — 나라장터 입찰 알림 · 그룹웨어 입찰 제안서 · 홈페이지 메뉴 개편 · 교육프로그램</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0%EC%95%8C%EB%A6%BC-%EC%9E%85%EC%B0%B0%EC%A0%9C%EC%95%88%EC%84%9C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A9%94%EB%89%B4</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%EB%82%98%EB%9D%BC%EC%9E%A5%ED%84%B0%EC%95%8C%EB%A6%BC-%EC%9E%85%EC%B0%B0%EC%A0%9C%EC%95%88%EC%84%9C-%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%EB%A9%94%EB%89%B4</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%EA%B8%B0%EB%B3%B8%EC%86%8C%EB%93%9D%EC%82%AC%EC%97%85%EA%B3%84%ED%9A%8D-%ED%95%9C%EA%B8%80%ED%8E%B8%EC%A7%91%EC%9B%90%EC%B9%99</guid>
     <description><![CDATA[ 세션 요약 이사장님 지시로 농어촌기본소득 지원사업단 사업계획서를 공론장 폴더에 넣고, 한글 편집 원칙 두 가지(문단 첫 줄 1칸 들여쓰기, 표 첫 행·첫 열 가운데)를 새로 정해 변환기에 배선했다. ]]></description>
     <pubDate>Mon, 05 Oct 2026 05:13:39 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-10-05 — 허브 통합계정 SSO · 홈페이지 관리자 실데이터 · 그룹웨어 · 정책지원관 시스템 이전</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%ED%97%88%EB%B8%8CSSO-%EA%B7%B8%EB%A3%B9%EC%9B%A8%EC%96%B4-%EA%B4%80%EB%A6%AC%EC%9E%90%ED%86%B5%ED%95%A9</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%ED%97%88%EB%B8%8CSSO-%EA%B7%B8%EB%A3%B9%EC%9B%A8%EC%96%B4-%EA%B4%80%EB%A6%AC%EC%9E%90%ED%86%B5%ED%95%A9</guid>
-    <description><![CDATA[ 세션 요약 2026-10-02부터 10-05까지 한 세션에서 이어 진행했다. ]]></description>
-    <pubDate>Mon, 05 Oct 2026 05:13:27 GMT</pubDate>
   </item>
     </channel>
   </rss>
