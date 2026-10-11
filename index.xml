@@ -6,6 +6,12 @@
       <description>최근 10 건 on sakyowon 위키</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>핸드오버 2026-10-11 — AI 작업대 일치(세 문을 같은 데카로) · 크롬 허용창 설정</title>
+    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-11-%EC%9E%91%EC%97%85%EB%8C%80%EC%9D%BC%EC%B9%98</link>
+    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-11-%EC%9E%91%EC%97%85%EB%8C%80%EC%9D%BC%EC%B9%98</guid>
+    <description><![CDATA[ 세션 요약 품앗이 위키 「실천기술/AI 작업대를 일치시켜라」(페르소나·데이터·하네스 세 축)를 기준으로, 사교원 서버(완도 B)에 데카로 들어오는 세 문 — 웹 방(deka.sakyowon.co.kr), 데스크톱앱 Code 탭(SSH 원격), 터미널 — 이 같은 데카가 되도록 고쳤다. ]]></description>
+    <pubDate>Sun, 11 Oct 2026 22:47:36 GMT</pubDate>
+  </item><item>
     <title>핸드오버 2026-10-06 — 아카데미 자격증아카데미에 파이썬 기초 10일 과정 추가</title>
     <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-06-%ED%8C%8C%EC%9D%B4%EC%8D%AC10%EC%9D%BC%EA%B3%BC%EC%A0%95</link>
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-06-%ED%8C%8C%EC%9D%B4%EC%8D%AC10%EC%9D%BC%EA%B3%BC%EC%A0%95</guid>
@@ -59,12 +65,6 @@
     <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%ED%81%AC%EB%A1%AC%EC%84%A4%EC%A0%95-%EB%B3%B4%ED%98%B8</guid>
     <description><![CDATA[ 핸드오버 2026-10-05 — 크롬 설정 보호 세션 요약 이사장님이 “작업하면서 크롬에 설정해 놓은 것을 맘대로 삭제하거나 바꿔서 바로가기나 즐겨찾기가 사라지고 있다”고 지적하셨다. ]]></description>
     <pubDate>Mon, 05 Oct 2026 06:27:05 GMT</pubDate>
-  </item><item>
-    <title>핸드오버 2026-10-05 — 직원 PC 자료 연동(Syncthing)·한글편집 규칙 정본화</title>
-    <link>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%EC%A7%81%EC%9B%90PC%EC%97%B0%EB%8F%99-%ED%95%9C%EA%B8%80%ED%8E%B8%EC%A7%91%EA%B7%9C%EC%B9%99-%EC%A0%95%EB%B3%B8%ED%99%94</link>
-    <guid>https://deka2026.github.io/sakyowon-wiki/%EB%A9%94%ED%83%80-%EA%B8%B0%EB%A1%9D/%ED%95%B8%EB%93%9C%EC%98%A4%EB%B2%84-2026-10-05-%EC%A7%81%EC%9B%90PC%EC%97%B0%EB%8F%99-%ED%95%9C%EA%B8%80%ED%8E%B8%EC%A7%91%EA%B7%9C%EC%B9%99-%EC%A0%95%EB%B3%B8%ED%99%94</guid>
-    <description><![CDATA[ 세션 요약 이사장님이 사무실 직원 컴퓨터 자료를 사교원 서버와 연동하는 방법을 물으셨고, 완도 B호기에 Syncthing을 설치해 받는 쪽 설정과 직원용 한글 설치 안내서까지 마쳤다(10-02~10-05). ]]></description>
-    <pubDate>Mon, 05 Oct 2026 06:26:48 GMT</pubDate>
   </item>
     </channel>
   </rss>
